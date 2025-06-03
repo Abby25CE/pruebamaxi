@@ -23,7 +23,7 @@ export default function SidebarDetails({ anuncio }: { anuncio: Anuncio }) {
 
       <hr className="border-[1px] border-gray-300 " />
       {/*Vendedor*/}
-      <div className="grid grid-cols-2 py-5 mb-4 rounded-2xl shadow-xl shadow-stone-300">
+      <div className="grid grid-cols-2 py-5 mb-4 rounded-2xl border  shadow-xl shadow-stone-300">
         <div className=" flex flex-col ml-3">
           <h2 className="text-lg font-bold ml-0.5 text-gray-800">
             {anuncio.sellerName}
