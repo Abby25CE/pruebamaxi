@@ -7,7 +7,8 @@ export interface Attribute {
 
 export interface Anuncio {
   id: string;
-  title: string;
+  brandModel: string;
+  year: string;
   description: string;
   price: number;
   currency: string;
@@ -17,8 +18,16 @@ export interface Anuncio {
   attributes: Attribute[];
   sellerName: string;
   sellerPhone: string;
-  location: string;
+  model: string;
   doors: number;
+  location: {
+    street: string;
+    extNumber: string;
+    intNumber: string;
+    zipCode: string;
+    city: string;
+    state: string;
+  };
 }
 
 export async function fetchAnuncio(id: string): Promise<Anuncio> {
@@ -41,9 +50,21 @@ export async function fetchAnuncio(id: string): Promise<Anuncio> {
     "colorInt",
     "traction",
   ];
+  const brand =
+    data.attributes?.find((attr: any) => attr.id === "brand")?.value ?? "";
+  const mode =
+    data.attributes?.find((attr: any) => attr.id === "model")?.value ?? "";
+  const year =
+    data.attributes?.find((attr: any) => attr.id === "year")?.value ?? "";
+
+  const brandModel = [brand, mode].filter(Boolean).join(" ");
+
+  const model =
+    data.attributes?.find((attr: any) => attr.id === "model")?.value ?? "";
+  data.attributes?.find((attr: any) => attr.id === "year")?.value ?? "";
 
   const doorsAttr = data.attributes?.find((attr: any) => attr.id === "doors");
-  const doors = typeof doorsAttr?.value === "number" ? doorsAttr.value : 0;
+  const doors = Number(doorsAttr?.value) || 0;
 
   const sellerName = data.seller?.commercialName ?? "Sin vendedor";
   const sellerPhone = data.seller?.phone?.[0]?.format ?? "Sin teléfono";
@@ -53,11 +74,6 @@ export async function fetchAnuncio(id: string): Promise<Anuncio> {
   );
   const odometer =
     typeof odometerAttr?.value === "number" ? odometerAttr.value : 0;
-
-  const loc = data.location?.location;
-  const location = loc
-    ? `${loc.city?.name ?? ""}, ${loc.state?.name ?? ""}`
-    : "Sin ubicación";
 
   const attributes: Attribute[] = (data.attributes || [])
     .filter((attr: any) => importantAttributeIds.includes(attr.id))
@@ -84,9 +100,21 @@ export async function fetchAnuncio(id: string): Promise<Anuncio> {
     .map((img: any) => img.url)
     .filter(Boolean);
 
+  const loc = data.location;
+
+  const location = {
+    street: loc?.street ?? "",
+    extNumber: loc?.numExt ?? "",
+    intNumber: loc?.numInt ?? "",
+    zipCode: loc?.zipCode ?? "",
+    city: loc?.location?.city?.name ?? "",
+    state: loc?.location?.state?.name ?? "",
+  };
+
   return {
     id: String(data._id),
-    title: data.title || "",
+    brandModel,
+    year,
     description:
       typeof descriptionAttr?.value === "string" ? descriptionAttr.value : "",
     price,
@@ -94,10 +122,11 @@ export async function fetchAnuncio(id: string): Promise<Anuncio> {
     images,
     attributes,
     odometer,
+    model,
     doors,
     sellerName,
-    sellerPhone,
     location,
+    sellerPhone,
     sellerLogo,
   };
 }

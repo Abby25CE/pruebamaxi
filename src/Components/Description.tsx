@@ -9,7 +9,7 @@ export default function Description({ text }: { text: string }) {
   const visibleText = expanded ? text : text.slice(0, limit);
 
   return (
-    <div className="mt-6">
+    <div className="mt-6 font-sans">
       <h3 className="text-lg font-semibold mb-2">Descripción</h3>
       <p className="text-gray-700">
         {visibleText}

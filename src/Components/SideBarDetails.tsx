@@ -3,18 +3,25 @@ import { Anuncio } from "@/lib/api";
 
 export default function SidebarDetails({ anuncio }: { anuncio: Anuncio }) {
   return (
-    <aside className="p-4 bg-white flex flex-col gap-6 ">
+    <aside className="p-4 bg-white flex flex-col gap-6 font-sans">
       {/*Modelo*/}
       <div className="">
-        <h2 className="flex flex-row justify-between text-xl font-semibold text-gray-800">
-          {anuncio.title} <h1>{anuncio.doors}-Puertas</h1>
-          <h1>Modelo</h1>
-        </h2>
-        <div className="flex flex-row text-center items-center text-xs">
+        <div className="flex flex-row justify-start gap-x-1 text-xl font-semibold text-gray-800">
+          <h1 className="">
+            {anuncio.brandModel} <h1>{anuncio.doors}-Puertas</h1>
+            <h1>{anuncio.model}</h1>
+          </h1>
+        </div>
+
+        <div className="flex flex-row gap-x-1.5 text-center items-center text-xs">
+          <strong className="bg-[#EC5530] text-white rounded-md px-2 py-1">
+            {anuncio.year}
+          </strong>
           <p>{anuncio.odometer} KM - </p>
-          <p className="text-sm text-gray-500">{anuncio.location}</p>
+          <p className="text-sm text-gray-500">{anuncio.location.city}</p>
         </div>
       </div>
+
       <hr className="border-[1px] border-gray-300 " />
       {/*Vendedor*/}
       <div className="grid grid-cols-2 py-5 mb-4 rounded-2xl shadow-xl shadow-stone-300">
@@ -22,7 +29,15 @@ export default function SidebarDetails({ anuncio }: { anuncio: Anuncio }) {
           <h2 className="text-lg font-bold ml-0.5 text-gray-800">
             {anuncio.sellerName}
           </h2>
-          <p className="text-sm text-[#EC5530]">{anuncio.location}</p>
+          <p className="text-sm text-gray-600">
+            <strong className="text-[#EC5530]">
+              {anuncio.location.street} #{anuncio.location.extNumber}
+            </strong>
+            <br />
+            CP {anuncio.location.zipCode}
+            <br />
+            {anuncio.location.city}, {anuncio.location.state}
+          </p>
           <p className="text-sm text-gray-500">{anuncio.sellerPhone}</p>
         </div>
         {anuncio.sellerLogo && (
@@ -42,19 +57,20 @@ export default function SidebarDetails({ anuncio }: { anuncio: Anuncio }) {
         }).format(anuncio.price)}
       </div>
       {/*Descripcion  General*/}
-      <div className="mt-4">
-        <h3 className="font-semibold text-gray-700 mb-2">Características</h3>
-        <ul className="space-y-1 text-sm text-gray-600">
+      <div className="mt-4 p-6 bg-[#F4F4F4]">
+        <h3 className="font-semibold text-gray-700 mb-4">Características</h3>
+        <div className="grid grid-cols-1 md:grid-cols-1 gap-x-8 gap-y-2 text-sm text-[#686868]">
           {anuncio.attributes.map((attr) => (
-            <li key={attr.id}>
-              <strong>{attr.label}:</strong> {String(attr.value)}
-            </li>
+            <div key={attr.id} className="flex justify-between ">
+              <span className="font-bold ">{attr.label}</span>
+              <span className="text-[#6A6A6A]">{String(attr.value)}</span>
+            </div>
           ))}
-        </ul>
+        </div>
       </div>
 
-      <button className="mt-6 w-full bg-orange text-white py-2 rounded-md hover:bg-orange/90 transition">
-        Descargar ficha
+      <button className="items-start px-7 py-2 text-[#EC5530] border-[1px] rounded-md w-4/6">
+        Descargar Ficha Tecnica
       </button>
     </aside>
   );

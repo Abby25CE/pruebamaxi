@@ -10,8 +10,8 @@ export default function Header() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="bg-[#0E0E0E] text-white shadow-md">
-      <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+    <header className="bg-[#0E0E0E] text-white shadow-md font-sans">
+      <div className="max-w-7xl mx-auto px-4 py-4 flex justify-around items-center">
         {/* Logo */}
         <Image
           className="w-auto h-auto"
@@ -27,7 +27,7 @@ export default function Header() {
             (label, index) => (
               <div
                 key={index}
-                className="px-4 py-1 hover:rounded-md hover:border-[#EC5530] hover:border-2 border-2 border-[#0E0E0E]"
+                className="px-2 py-1 hover:rounded-md hover:border-[#EC5530] hover:border-2 border-2 border-[#0E0E0E]"
               >
                 <Link
                   href={
