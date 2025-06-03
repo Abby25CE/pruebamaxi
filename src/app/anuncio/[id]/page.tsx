@@ -8,9 +8,9 @@ import { use } from "react";
 export default function AnuncioPage(props: {
   params: Promise<{ id: string }>;
 }) {
-  const { id } = use(props.params); // ✅ unwrap del Promise
+  const { id } = use(props.params);
 
-  const anuncio = use(fetchAnuncio(id)); // también puedes usar use con fetch directamente
+  const anuncio = use(fetchAnuncio(id));
 
   return (
     <main className="max-w-7xl mx-auto p-4 grid grid-cols-1 md:grid-cols-3 gap-6">

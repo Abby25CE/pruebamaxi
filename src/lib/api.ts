@@ -21,7 +21,7 @@ export async function fetchAnuncio(id: string): Promise<Anuncio> {
   return {
     id: data.id,
     title: data.title,
-    description: data.description,
+    description: data.description || "",
     images: data.images || [],
     attributes: data.attributes || [],
   };
