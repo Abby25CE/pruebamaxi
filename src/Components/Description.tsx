@@ -18,7 +18,7 @@ export default function Description({ text }: { text: string }) {
       {text.length > limit && (
         <button
           onClick={() => setExpanded(!expanded)}
-          className="text-orange font-medium mt-2"
+          className="text-orange font-medium mt-2 hover:cursor-pointer"
         >
           {expanded ? "Ver menos" : "Ver más"}
         </button>
