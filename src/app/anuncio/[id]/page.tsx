@@ -16,7 +16,7 @@ export default function AnuncioPage(props: {
   return (
     <main className="max-w-7xl mx-auto p-4 grid grid-cols-1 md:grid-cols-3 gap-6 font-sans">
       <div className="md:col-span-2">
-        <Nav />
+        <Nav anuncio={anuncio} />
         <Gallery images={anuncio.images} />
         <Description text={anuncio.description} />
       </div>

@@ -1,28 +1,20 @@
 "use client";
 import { useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
+import { Anuncio, buildNavigation } from "@/lib/api";
 
-const Nav = () => {
+export default function Nav({ anuncio }: { anuncio: Anuncio }) {
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  const navigationItems = [
-    { label: "Volver al listado", isAction: true },
-    { label: "Compra de autos", isCategory: true },
-    { label: "Audi", isBrand: true },
-    { label: "A8", isModel: true },
-    { label: "Sedán Turbo", isVariant: true },
-  ];
+  const navigationItems = buildNavigation(anuncio);
 
   const handlePrevious = () => {
-    if (currentIndex > 0) {
-      setCurrentIndex(currentIndex - 1);
-    }
+    if (currentIndex > 0) setCurrentIndex(currentIndex - 1);
   };
 
   const handleNext = () => {
-    if (currentIndex < navigationItems.length - 1) {
+    if (currentIndex < navigationItems.length - 1)
       setCurrentIndex(currentIndex + 1);
-    }
   };
 
   return (
@@ -40,7 +32,7 @@ const Nav = () => {
         <ChevronLeft size={20} />
       </button>
 
-      {/* Navigation Items */}
+      {/* Breadcrumb items */}
       <div className="flex items-center space-x-2 overflow-x-auto">
         {navigationItems.map((item, index) => (
           <div key={index} className="flex items-center">
@@ -78,6 +70,4 @@ const Nav = () => {
       </button>
     </div>
   );
-};
-
-export default Nav;
+}

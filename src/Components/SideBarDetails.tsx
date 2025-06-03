@@ -9,7 +9,6 @@ export default function SidebarDetails({ anuncio }: { anuncio: Anuncio }) {
         <div className="flex flex-row justify-start gap-x-1 text-xl font-semibold text-gray-800">
           <h1 className="">
             {anuncio.brandModel} <h1>{anuncio.doors}-Puertas</h1>
-            <h1>{anuncio.model}</h1>
           </h1>
         </div>
 

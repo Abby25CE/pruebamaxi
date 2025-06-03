@@ -1,5 +1,4 @@
 export interface Attribute {
-  name: string;
   id: string;
   label: string;
   value: string | number | boolean | null;
@@ -7,8 +6,7 @@ export interface Attribute {
 
 export interface Anuncio {
   id: string;
-  brandModel: string;
-  year: string;
+  title: string;
   description: string;
   price: number;
   currency: string;
@@ -18,7 +16,10 @@ export interface Anuncio {
   attributes: Attribute[];
   sellerName: string;
   sellerPhone: string;
-  model: string;
+  brandModel: string;
+  fullModel: string;
+  year: string;
+  bodyType: string;
   doors: number;
   location: {
     street: string;
@@ -30,12 +31,37 @@ export interface Anuncio {
   };
 }
 
+export interface NavigationItem {
+  label: string;
+  isAction?: boolean;
+  isCategory?: boolean;
+  isBrand?: boolean;
+  isModel?: boolean;
+  isVariant?: boolean;
+}
+
+// Breadcrumb dinámico
+export function buildNavigation(anuncio: Anuncio): NavigationItem[] {
+  return [
+    { label: "Volver al listado", isAction: true },
+    { label: "Compra de autos", isCategory: true },
+    { label: anuncio.brandModel.split(" ")[0] || "Marca", isBrand: true },
+
+    {
+      label: anuncio.year.replace(anuncio.brandModel, "").trim() || "Versión",
+      isVariant: true,
+    },
+  ];
+}
+
+// Función principal para obtener el anuncio
 export async function fetchAnuncio(id: string): Promise<Anuncio> {
   const res = await fetch(`https://beta.maxipublica.com/testing/ads/${id}`);
   if (!res.ok) throw new Error("No se pudo obtener el anuncio");
 
   const data = await res.json();
 
+  // Atributos importantes para mostrar
   const importantAttributeIds = [
     "year",
     "transmission",
@@ -50,30 +76,6 @@ export async function fetchAnuncio(id: string): Promise<Anuncio> {
     "colorInt",
     "traction",
   ];
-  const brand =
-    data.attributes?.find((attr: any) => attr.id === "brand")?.value ?? "";
-  const mode =
-    data.attributes?.find((attr: any) => attr.id === "model")?.value ?? "";
-  const year =
-    data.attributes?.find((attr: any) => attr.id === "year")?.value ?? "";
-
-  const brandModel = [brand, mode].filter(Boolean).join(" ");
-
-  const model =
-    data.attributes?.find((attr: any) => attr.id === "model")?.value ?? "";
-  data.attributes?.find((attr: any) => attr.id === "year")?.value ?? "";
-
-  const doorsAttr = data.attributes?.find((attr: any) => attr.id === "doors");
-  const doors = Number(doorsAttr?.value) || 0;
-
-  const sellerName = data.seller?.commercialName ?? "Sin vendedor";
-  const sellerPhone = data.seller?.phone?.[0]?.format ?? "Sin teléfono";
-  const sellerLogo = data.seller?.logo ?? "";
-  const odometerAttr = data.attributes?.find(
-    (attr: any) => attr.id === "odometer"
-  );
-  const odometer =
-    typeof odometerAttr?.value === "number" ? odometerAttr.value : 0;
 
   const attributes: Attribute[] = (data.attributes || [])
     .filter((attr: any) => importantAttributeIds.includes(attr.id))
@@ -83,9 +85,14 @@ export async function fetchAnuncio(id: string): Promise<Anuncio> {
       value: attr.value,
     }));
 
-  const descriptionAttr = data.attributes?.find(
-    (attr: any) => attr.id === "descriptionAut"
+  // Valores individuales
+  const doorsAttr = data.attributes?.find((attr: any) => attr.id === "doors");
+  const doors = Number(doorsAttr?.value) || 0;
+
+  const odometerAttr = data.attributes?.find(
+    (attr: any) => attr.id === "odometer"
   );
+  const odometer = Number(odometerAttr?.value) || 0;
 
   const priceAttr = data.attributes?.find((attr: any) => attr.id === "price");
   const currencyAttr = data.attributes?.find(
@@ -96,9 +103,20 @@ export async function fetchAnuncio(id: string): Promise<Anuncio> {
   const currency =
     typeof currencyAttr?.value === "string" ? currencyAttr.value : "MXN";
 
+  const descriptionAttr = data.attributes?.find(
+    (attr: any) => attr.id === "descriptionAut"
+  );
+
+  const description =
+    typeof descriptionAttr?.value === "string" ? descriptionAttr.value : "";
+
   const images: string[] = (data.images || [])
     .map((img: any) => img.url)
     .filter(Boolean);
+
+  const sellerName = data.seller?.commercialName ?? "Sin vendedor";
+  const sellerPhone = data.seller?.phone?.[0]?.format ?? "Sin teléfono";
+  const sellerLogo = data.seller?.logo ?? "";
 
   const loc = data.location;
 
@@ -111,22 +129,44 @@ export async function fetchAnuncio(id: string): Promise<Anuncio> {
     state: loc?.location?.state?.name ?? "",
   };
 
+  // Datos del modelo
+  const brand =
+    data.attributes?.find((attr: any) => attr.id === "brand")?.value ?? "";
+  const model =
+    data.attributes?.find((attr: any) => attr.id === "model")?.value ?? "";
+  const year =
+    data.attributes?.find((attr: any) => attr.id === "year")?.value ?? "";
+  const trim =
+    data.attributes?.find((attr: any) => attr.id === "trim")?.value ?? "";
+
+  const brandModel = [brand, model].filter(Boolean).join(" ");
+  const fullModel = [brand, model, year, trim].filter(Boolean).join(" ");
+
+  const bodyTypeAttr = data.attributes?.find(
+    (attr: any) => attr.id === "bodyType"
+  );
+  const bodyType =
+    typeof bodyTypeAttr?.value === "string"
+      ? bodyTypeAttr.value
+      : "No especificado";
+
   return {
     id: String(data._id),
-    brandModel,
-    year,
-    description:
-      typeof descriptionAttr?.value === "string" ? descriptionAttr.value : "",
+    title: data.title || "",
+    description,
     price,
     currency,
     images,
     attributes,
     odometer,
-    model,
     doors,
     sellerName,
-    location,
     sellerPhone,
     sellerLogo,
+    year,
+    brandModel,
+    fullModel,
+    bodyType,
+    location,
   };
 }
