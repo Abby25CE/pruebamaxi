@@ -68,7 +68,7 @@ export default function SidebarDetails({ anuncio }: { anuncio: Anuncio }) {
         </div>
       </div>
 
-      <button className="items-start px-7 py-2 text-[#EC5530] border-[1px] rounded-md w-4/6">
+      <button className="items-start px-7 py-2 text-[#EC5530] border-[1px] rounded-md w-full md:w-4/6">
         Descargar Ficha Tecnica
       </button>
     </aside>
