@@ -19,7 +19,7 @@ export default function Header() {
         {/* Navegación */}
         <nav className="hidden md:flex md flex-row gap-x-7 text-sm">
           <div
-            className=" px-4 py-1 hover:rounded-md hover:border-amber-700 hover:border-2 border-2 
+            className=" px-4 py-1 hover:rounded-md hover:border-[#EC5530] hover:border-2 border-2 
           border-[#0E0E0E]"
           >
             <Link
@@ -30,7 +30,7 @@ export default function Header() {
             </Link>
           </div>
           <div
-            className=" px-4 py-1 hover:rounded-md hover:border-amber-700 hover:border-2 border-2 
+            className=" px-4 py-1 hover:rounded-md hover:border-[#EC5530] hover:border-2 border-2 
           border-[#0E0E0E]"
           >
             <Link
@@ -42,7 +42,7 @@ export default function Header() {
           </div>
 
           <div
-            className=" px-4 py-1 hover:rounded-md hover:border-amber-700 hover:border-2 border-2 
+            className=" px-4 py-1 hover:rounded-md hover:border-[#EC5530] hover:border-2 border-2 
           border-[#0E0E0E]"
           >
             <Link
@@ -54,7 +54,7 @@ export default function Header() {
           </div>
 
           <div
-            className=" px-4 py-1 hover:rounded-md hover:border-amber-700 hover:border-2 border-2 
+            className=" px-4 py-1 hover:rounded-md hover:border-[#EC5530] hover:border-2 border-2 
           border-[#0E0E0E]"
           >
             <Link
