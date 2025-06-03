@@ -1,21 +1,24 @@
-"use client";
-import AnuncioDetails from "@/Components/AnuncioDetails";
+// app/anuncio/[id]/page.tsx
+import Description from "@/Components/Description";
 import Gallery from "@/Components/Gallery";
+import SidebarDetails from "@/Components/SideBarDetails";
 import { fetchAnuncio } from "@/lib/api";
+import { use } from "react";
 
-interface Params {
-  params: {
-    id: string;
-  };
-}
+export default function AnuncioPage(props: {
+  params: Promise<{ id: string }>;
+}) {
+  const { id } = use(props.params); // ✅ unwrap del Promise
 
-export default async function AnuncioPage({ params }: Params) {
-  const anuncio = await fetchAnuncio(params.id);
+  const anuncio = use(fetchAnuncio(id)); // también puedes usar use con fetch directamente
 
   return (
-    <main className="max-w-4xl mx-auto p-4">
-      <AnuncioDetails anuncio={anuncio} />
-      <Gallery images={anuncio.images} />
+    <main className="max-w-7xl mx-auto p-4 grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div className="md:col-span-2">
+        <Gallery images={anuncio.images} />
+        <Description text={anuncio.description} />
+      </div>
+      <SidebarDetails anuncio={anuncio} />
     </main>
   );
 }
