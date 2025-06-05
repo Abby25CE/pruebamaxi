@@ -1,0 +1,6515 @@
+[
+  {
+    "_id": 20895027,
+    "seller": {
+      "groupId": [5],
+      "groupKey": ["9vkZ6wgpvSk6Z3BWjFxG"],
+      "photo": "https://s3.amazonaws.com/images.maxipublica.com/customer/sellers/53d983dd137476712545f04dc6e60498bc4c8bf983/8764832eea008_a.jpeg",
+      "commercialName": "Mgp Dev Autos Xochi",
+      "logo": "https://s3.amazonaws.com/images.maxipublica.com/customer/sellers/777/719d08db43490_a.jpeg",
+      "phone": [
+        {
+          "type": "mobile",
+          "number": "5553508885",
+          "action": "+5215553508885",
+          "format": "Cel. (55) 5350-8885",
+          "extension": "",
+          "nextelId": ""
+        },
+        {
+          "type": "office",
+          "number": "5544242080",
+          "format": "(55) 4424-2080 ext.180",
+          "action": "+525544242080,180",
+          "extension": "180",
+          "nextelId": ""
+        }
+      ]
+    },
+    "location": {
+      "location": {
+        "neighborhood": {
+          "name": "Santa Fe Cuajimalpa",
+          "id": "COL090040792"
+        },
+        "city": {
+          "name": "Cuajimalpa de Morelos",
+          "id": "CTY09004"
+        },
+        "state": {
+          "name": "Distrito Federal",
+          "id": "STS09"
+        },
+        "country": {
+          "name": "México",
+          "id": "MX"
+        }
+      },
+      "geoReference": "19.358146873244483,-99.27859003432643,17z",
+      "zipCode": "05348",
+      "numInt": "302",
+      "numExt": "50",
+      "street": "Juan Salvador Agraz"
+    },
+    "status": "active",
+    "variations": [],
+    "attributes": [
+      {
+        "value": "Seat Arona 2018",
+        "id": "title",
+        "label": "Título",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 0
+      },
+      {
+        "value": 74000,
+        "id": "odometer",
+        "label": "Odómetro",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 0
+      },
+      {
+        "value": "Km",
+        "id": "odometerUnits",
+        "label": "Unidades",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 1,
+        "valueId": "ODOMETER_UNITS-KM"
+      },
+      {
+        "value": "Original",
+        "id": "odometerStatus",
+        "label": "Estatus",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 2,
+        "valueId": "ODOMETER_STATUS-ORIGINAL"
+      },
+      {
+        "value": 315000,
+        "id": "price",
+        "label": "Precio total al contado",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 0
+      },
+      {
+        "value": "MXN",
+        "id": "currency",
+        "label": "Moneda",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 1,
+        "valueId": "CURRENCIE-MXN"
+      },
+      {
+        "value": "Negociable",
+        "id": "priceType",
+        "label": "Tipo de precio",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 2,
+        "valueId": "PRICETYPE-NEGOTIABLE"
+      },
+      {
+        "value": null,
+        "id": "previousPrice",
+        "label": "Precio anterior",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 0
+      },
+      {
+        "value": "MXN",
+        "id": "previousCurrency",
+        "label": "Moneda del precio anterior",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 1,
+        "valueId": "CURRENCIE-MXN"
+      },
+      {
+        "value": false,
+        "id": "isPriceOffer",
+        "label": "Es precio de oferta",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 2
+      },
+      {
+        "value": "Sin financiamiento",
+        "id": "finantial",
+        "label": "Financiamiento",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 3,
+        "valueId": "FINANCING-NONE"
+      },
+      {
+        "value": "Automática",
+        "id": "transmission",
+        "label": "Transmisión",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 4,
+        "valueId": "TRANS-AUTOMATICA"
+      },
+      {
+        "value": "Asistida",
+        "id": "direction",
+        "label": "Dirección",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 5,
+        "valueId": "DIRECCION-ASISTIDA"
+      },
+      {
+        "value": "Tela",
+        "id": "vesture",
+        "label": "Vestidura",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 6,
+        "valueId": "VESTURE-TELA"
+      },
+      {
+        "value": "Gasolina",
+        "id": "energy",
+        "label": "Combustible o energía",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 7,
+        "valueId": "FUEL-GASOLINA"
+      },
+      {
+        "value": "CUV / SUV / Crossover",
+        "id": "bodyType",
+        "label": "Segmento",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 8,
+        "valueId": "BODY-CSC"
+      },
+      {
+        "value": "Usado",
+        "id": "condition",
+        "label": "Condición",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 9,
+        "valueId": "CONDITION-USED"
+      },
+      {
+        "value": "Rojo",
+        "id": "colorExt",
+        "label": "Color exterior",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 10,
+        "valueId": "COLOREXT-ROJO"
+      },
+      {
+        "value": "Negro",
+        "id": "colorInt",
+        "label": "Color interior",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 11,
+        "valueId": "COLORINT-NEGRO"
+      },
+      {
+        "value": "Si Automático",
+        "id": "climate",
+        "label": "Aire acondicionado",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 12,
+        "valueId": "CLIMATE-SI_AUTOMATICO"
+      },
+      {
+        "value": "Delantera",
+        "id": "traction",
+        "label": "Tracción",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 13,
+        "valueId": "TRACTION-DELANTERA"
+      },
+      {
+        "value": "No",
+        "id": "armour",
+        "label": "Blindaje",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 14,
+        "valueId": "ARMOUR-NO"
+      },
+      {
+        "value": "VSSCC6KJ3JR236313",
+        "id": "vin",
+        "label": "Número de identificación vehicular",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 15
+      },
+      {
+        "value": "",
+        "id": "waranty",
+        "label": "Garantía",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 16,
+        "valueId": ""
+      },
+      {
+        "value": "",
+        "id": "descriptionHtml",
+        "label": "Descripción en HTML (Sólo se usará para MercadoLibre)",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 17
+      },
+      {
+        "value": "Novedad",
+        "id": "badge",
+        "label": "Distintivo",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 18,
+        "valueId": "BADGE-NOVEDAD"
+      },
+      {
+        "value": "JSB4295",
+        "id": "numberPlate",
+        "label": "No. de Placa",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 19
+      },
+      {
+        "value": "Jalisco",
+        "id": "statePlate",
+        "label": "Entidad federativa de la placa",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 20,
+        "valueId": "STS14"
+      },
+      {
+        "value": "",
+        "id": "purchaseDate",
+        "label": "Fecha de compra",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 21
+      },
+      {
+        "value": "",
+        "id": "conditionsReport",
+        "label": "Reporte de condiciones",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 22
+      },
+      {
+        "value": "2",
+        "id": "ownersNumber",
+        "label": "Cantidad de dueños",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 23,
+        "valueId": "OWNERS-2"
+      },
+      {
+        "value": "3",
+        "id": "invoicesNumber",
+        "label": "Cantidad de facturas",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 24,
+        "valueId": "INVOICES-3"
+      },
+      {
+        "value": "90 días",
+        "id": "warranty",
+        "label": "Garantía",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 25,
+        "valueId": "WARRANTY-90_DAY"
+      },
+      {
+        "value": "",
+        "id": "source360",
+        "label": "Recurso 360",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 26
+      },
+      {
+        "value": "",
+        "id": "source360UrlVideo",
+        "label": "Url de video 360",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 27
+      },
+      {
+        "value": "",
+        "id": "source360UrlVideoThumbnail",
+        "label": "Url del thumbnail de video 360",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 28
+      },
+      {
+        "value": "",
+        "id": "source360UrlIframe",
+        "label": "Url del iframe 360",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 29
+      },
+      {
+        "value": "",
+        "id": "source360Frames",
+        "label": "Urls de frames",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 30
+      },
+      {
+        "value": null,
+        "id": "source360Degrees",
+        "label": "Cobertura del giro",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 31
+      },
+      {
+        "value": null,
+        "id": "source360NumberOfFrames",
+        "label": "Número de frames",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 32
+      },
+      {
+        "value": "",
+        "id": "descriptionTxt",
+        "label": "Descripción",
+        "type": "attribute",
+        "groupId": "description",
+        "order": 0
+      },
+      {
+        "value": true,
+        "id": "useDescription",
+        "label": "Usar descripción automática",
+        "type": "attribute",
+        "groupId": "description",
+        "order": 1
+      },
+      {
+        "value": "Seat Arona 2018 5p Xcellence L4/1.6 Aut.\n\nTipo de precio: Negociable\nTransmisión: Automática\nDirección: Asistida\nVestidura: Tela\nCombustible o energía: Gasolina\nSegmento: CUV / SUV / Crossover\nCondición: Usado\nColor exterior: Rojo\nColor interior: Negro\nCon aire acondicionado automático\nTracción: Delantera\nPuertas: 5\nPasajeros: 5\nVelocidades: 6\nCilindros: 4\nVálvulas: 4\nPotencia en HP: 110\nTorque máximo libras/pie: 114\nCapacidad del tanque (l): 40\nConsumo en combinado (Km/l): 18.9\nDiámetro de rines (pulgadas): 17\nLargo del vehículo (mm): 4138\nAncho del vehículo (mm): 1780\nAlto del vehículo (mm): 1552\nPeso (Kg): 1194\n\nEQUIPAMIENTO:\n\n- Audio: bocinas, caja de discos, controles remotos del equipo de audio, entrada auxiliar, interface para ipod, puerto usb.\n\n- Confort: aire acondicionado, altura del volante ajustable, apertura de cajuela y tapa combustible, apertura remota de cajuela, botón de arranque del vehículo, canastilla portaequipaje, control automático de velocidad, desempañador trasero, espejo de vanidad, espejos laterales retractiles, profundidad del volante ajustable, sensor de estacionamiento, sistema de control por voz para funciones, volante de posiciones.\n\n- Documentos: acepto vehículos a cuenta.\n\n- Eléctrico: asiento conductor, computadora de viaje, elevadores de cristal.\n\n- Extras: rines de aluminio y/o aleación, spoilers.\n\n- Gadgets: bluetooth.\n\n- Seguridad: bolsa de aire conductor, bolsa de aire laterales, bolsas de aire cortina, cinturones de seguridad delanteros, cinturones de seguridad traseros, control de estabilidad, control de tracción, faros de niebla, frenos abs, frenos de disco traseros, sensor de lluvia, sensor para cambio de carril.",
+        "id": "descriptionAut",
+        "label": "Descripción",
+        "type": "attribute",
+        "groupId": "description",
+        "order": 2
+      },
+      {
+        "value": "",
+        "id": "descriptionFooter",
+        "label": "Descripción",
+        "type": "attribute",
+        "groupId": "description",
+        "order": 3
+      },
+      {
+        "value": "0",
+        "id": "hologram",
+        "label": "Holograma ambiental",
+        "type": "attribute",
+        "groupId": "advanced",
+        "order": 0,
+        "valueId": "HOLOLGRAM-0"
+      },
+      {
+        "value": "5",
+        "id": "doors",
+        "label": "Puertas",
+        "type": "attribute",
+        "groupId": "advanced",
+        "order": 1,
+        "valueId": "DOORS-5"
+      },
+      {
+        "value": "5",
+        "id": "passengers",
+        "label": "Pasajeros",
+        "type": "attribute",
+        "groupId": "advanced",
+        "order": 2,
+        "valueId": "PASSENGERS-5"
+      },
+      {
+        "value": "6",
+        "id": "speeds",
+        "label": "Velocidades",
+        "type": "attribute",
+        "groupId": "advanced",
+        "order": 3,
+        "valueId": "SPPEDS-6"
+      },
+      {
+        "value": "4",
+        "id": "cylinders",
+        "label": "Cilindros",
+        "type": "attribute",
+        "groupId": "advanced",
+        "order": 4,
+        "valueId": "CYLINDERS-4"
+      },
+      {
+        "value": "4",
+        "id": "valves",
+        "label": "Válvulas",
+        "type": "attribute",
+        "groupId": "advanced",
+        "order": 5,
+        "valueId": "VALVES-4"
+      },
+      {
+        "value": null,
+        "id": "displacement",
+        "label": "Cilindrada",
+        "type": "attribute",
+        "groupId": "advanced",
+        "order": 6
+      },
+      {
+        "value": 110,
+        "id": "power",
+        "label": "Potencia en HP",
+        "type": "attribute",
+        "groupId": "advanced",
+        "order": 7
+      },
+      {
+        "value": 114,
+        "id": "torque",
+        "label": "Torque máximo libras/pie",
+        "type": "attribute",
+        "groupId": "advanced",
+        "order": 8
+      },
+      {
+        "value": 40,
+        "id": "tankCapacity",
+        "label": "Capacidad del tanque (l)",
+        "type": "attribute",
+        "groupId": "advanced",
+        "order": 9
+      },
+      {
+        "value": null,
+        "id": "consumptionCity",
+        "label": "Consumo en ciudad (Km/l)",
+        "type": "attribute",
+        "groupId": "advanced",
+        "order": 10
+      },
+      {
+        "value": null,
+        "id": "consumptionRoad",
+        "label": "Consumo en carretera (Km/l)",
+        "type": "attribute",
+        "groupId": "advanced",
+        "order": 11
+      },
+      {
+        "value": 18.9,
+        "id": "consumptionCombined",
+        "label": "Consumo en combinado (Km/l)",
+        "type": "attribute",
+        "groupId": "advanced",
+        "order": 12
+      },
+      {
+        "value": 17,
+        "id": "diameterWheels",
+        "label": "Diámetro de rines (pulgadas)",
+        "type": "attribute",
+        "groupId": "advanced",
+        "order": 13
+      },
+      {
+        "value": 4138,
+        "id": "dimensionsLength",
+        "label": "Largo del vehículo (mm)",
+        "type": "attribute",
+        "groupId": "advanced",
+        "order": 14
+      },
+      {
+        "value": 1780,
+        "id": "dimensionsWidth",
+        "label": "Ancho del vehículo (mm)",
+        "type": "attribute",
+        "groupId": "advanced",
+        "order": 15
+      },
+      {
+        "value": 1552,
+        "id": "dimensionsHeight",
+        "label": "Alto del vehículo (mm)",
+        "type": "attribute",
+        "groupId": "advanced",
+        "order": 16
+      },
+      {
+        "value": 1194,
+        "id": "dimensionsWeight",
+        "label": "Peso (Kg)",
+        "type": "attribute",
+        "groupId": "advanced",
+        "order": 17
+      },
+      {
+        "value": "Jalisco-Mazda Santa Anita",
+        "id": "stock",
+        "label": "Número de inventario",
+        "type": "attribute",
+        "groupId": "business",
+        "order": 0
+      },
+      {
+        "value": null,
+        "id": "purchasePrice",
+        "label": "Precio de compra",
+        "type": "attribute",
+        "groupId": "business",
+        "order": 1
+      },
+      {
+        "value": "Seat",
+        "id": "brand",
+        "label": "Marca",
+        "type": "category",
+        "groupId": "catalog",
+        "order": 0,
+        "valueId": "v_1_51"
+      },
+      {
+        "value": "Arona",
+        "id": "model",
+        "label": "Modelo",
+        "type": "category",
+        "groupId": "catalog",
+        "order": 1,
+        "valueId": "v_1_51_10"
+      },
+      {
+        "value": "2018",
+        "id": "year",
+        "label": "Año",
+        "type": "category",
+        "groupId": "catalog",
+        "order": 2,
+        "valueId": "v_1_51_10_1"
+      },
+      {
+        "value": "5p Xcellence L4/1.6 Aut",
+        "id": "trim",
+        "label": "Versión",
+        "type": "category",
+        "groupId": "catalog",
+        "order": 3,
+        "valueId": "v_1_51_10_1_3"
+      },
+      {
+        "value": false,
+        "id": "antenna",
+        "label": "Antena",
+        "type": "equipment",
+        "groupId": "audio",
+        "order": 0
+      },
+      {
+        "value": false,
+        "id": "wirelessHeadphones",
+        "label": "Audífonos inalámbricos",
+        "type": "equipment",
+        "groupId": "audio",
+        "order": 1
+      },
+      {
+        "value": true,
+        "id": "speakers",
+        "label": "Bocinas",
+        "type": "equipment",
+        "groupId": "audio",
+        "order": 2
+      },
+      {
+        "value": true,
+        "id": "boxDisk",
+        "label": "Caja de discos",
+        "type": "equipment",
+        "groupId": "audio",
+        "order": 3
+      },
+      {
+        "value": true,
+        "id": "remoteControlAudio",
+        "label": "Controles remotos del equipo de audio",
+        "type": "equipment",
+        "groupId": "audio",
+        "order": 4
+      },
+      {
+        "value": true,
+        "id": "auxiliaryInput",
+        "label": "Entrada auxiliar",
+        "type": "equipment",
+        "groupId": "audio",
+        "order": 5
+      },
+      {
+        "value": true,
+        "id": "ipodPort",
+        "label": "Interface para iPod",
+        "type": "equipment",
+        "groupId": "audio",
+        "order": 6
+      },
+      {
+        "value": false,
+        "id": "screenEntertainment",
+        "label": "Pantalla entretenimiento",
+        "type": "equipment",
+        "groupId": "audio",
+        "order": 7
+      },
+      {
+        "value": true,
+        "id": "usbPort",
+        "label": "Puerto USB",
+        "type": "equipment",
+        "groupId": "audio",
+        "order": 8
+      },
+      {
+        "value": false,
+        "id": "satelitalRadio",
+        "label": "Radio satelital",
+        "type": "equipment",
+        "groupId": "audio",
+        "order": 9
+      },
+      {
+        "value": false,
+        "id": "cdPlayer",
+        "label": "Reproductor CD/MP3",
+        "type": "equipment",
+        "groupId": "audio",
+        "order": 10
+      },
+      {
+        "value": true,
+        "id": "airConditioning",
+        "label": "Aire acondicionado",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 0
+      },
+      {
+        "value": false,
+        "id": "airConditioningDoubleZone",
+        "label": "Aire acondicionado doble zona",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 1
+      },
+      {
+        "value": false,
+        "id": "adjustmentElectricWheel",
+        "label": "Ajuste del volante eléctrico",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 2
+      },
+      {
+        "value": false,
+        "id": "lumbarAdjustment",
+        "label": "Ajuste lumbar",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 3
+      },
+      {
+        "value": false,
+        "id": "aleron",
+        "label": "Alerón",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 4
+      },
+      {
+        "value": true,
+        "id": "heightWheel",
+        "label": "Altura del volante ajustable",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 5
+      },
+      {
+        "value": true,
+        "id": "openTrunkFuel",
+        "label": "Apertura de cajuela y tapa combustible",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 6
+      },
+      {
+        "value": true,
+        "id": "remoteTrunk",
+        "label": "Apertura remota de cajuela",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 7
+      },
+      {
+        "value": false,
+        "id": "remoteGarage",
+        "label": "Apertura remota de garage",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 8
+      },
+      {
+        "value": false,
+        "id": "foldingRearSeat",
+        "label": "Asientos traseros abatibles",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 9
+      },
+      {
+        "value": true,
+        "id": "startButton",
+        "label": "Botón de arranque del vehículo",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 10
+      },
+      {
+        "value": false,
+        "id": "heatedSeats",
+        "label": "Calefacción en asientos",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 11
+      },
+      {
+        "value": true,
+        "id": "luggageRack",
+        "label": "Canastilla portaequipaje",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 12
+      },
+      {
+        "value": false,
+        "id": "carEntertaiment",
+        "label": "Centro de entretenimiento con DVD",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 13
+      },
+      {
+        "value": false,
+        "id": "automaticDoor",
+        "label": "Cierre automático de puertas",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 14
+      },
+      {
+        "value": true,
+        "id": "cruiseControl",
+        "label": "Control automático de velocidad",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 15
+      },
+      {
+        "value": false,
+        "id": "automaticAir",
+        "label": "Control de temperatura automática",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 16
+      },
+      {
+        "value": true,
+        "id": "rearDefroster",
+        "label": "Desempañador trasero",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 17
+      },
+      {
+        "value": true,
+        "id": "vanityMirror",
+        "label": "Espejo de vanidad",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 18
+      },
+      {
+        "value": true,
+        "id": "doorMirriors",
+        "label": "Espejos laterales retractiles",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 19
+      },
+      {
+        "value": false,
+        "id": "rearWiper",
+        "label": "Limpiador trasero",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 20
+      },
+      {
+        "value": false,
+        "id": "memorySeats",
+        "label": "Memoria en asientos",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 21
+      },
+      {
+        "value": false,
+        "id": "adjustablePedals",
+        "label": "Pedales ajustables",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 22
+      },
+      {
+        "value": true,
+        "id": "depthWheel",
+        "label": "Profundidad del volante ajustable",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 23
+      },
+      {
+        "value": false,
+        "id": "dvdPlayer",
+        "label": "Reproductor de DVD",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 24
+      },
+      {
+        "value": false,
+        "id": "keylessEntry",
+        "label": "Sensor de apertura",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 25
+      },
+      {
+        "value": true,
+        "id": "parkingSensor",
+        "label": "Sensor de estacionamiento",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 26
+      },
+      {
+        "value": true,
+        "id": "systemVoice",
+        "label": "Sistema de control por voz para funciones",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 27
+      },
+      {
+        "value": false,
+        "id": "thirdRowSeats",
+        "label": "Tercera fila de asientos",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 28
+      },
+      {
+        "value": false,
+        "id": "carThermometer",
+        "label": "Termómetro ambiental",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 29
+      },
+      {
+        "value": false,
+        "id": "tintedWindows",
+        "label": "Vidrios entintados",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 30
+      },
+      {
+        "value": true,
+        "id": "wheelPositions",
+        "label": "Volante de posiciones",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 31
+      },
+      {
+        "value": false,
+        "id": "wheelControls",
+        "label": "Volante multifunciones",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 32
+      },
+      {
+        "value": false,
+        "id": "leatherWheel",
+        "label": "Volante revestido en piel",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 33
+      },
+      {
+        "value": false,
+        "id": "certificated",
+        "label": "Certificado",
+        "type": "equipment",
+        "groupId": "documents",
+        "order": 0
+      },
+      {
+        "value": false,
+        "id": "taxItemized",
+        "label": "Factura IVA desglosado",
+        "type": "equipment",
+        "groupId": "documents",
+        "order": 1
+      },
+      {
+        "value": false,
+        "id": "originalInvoice",
+        "label": "Factura original",
+        "type": "equipment",
+        "groupId": "documents",
+        "order": 2
+      },
+      {
+        "value": true,
+        "id": "possibleChange",
+        "label": "Acepto vehículos a cuenta",
+        "type": "equipment",
+        "groupId": "documents",
+        "order": 3
+      },
+      {
+        "value": false,
+        "id": "firtsCarOwner",
+        "label": "Primer propietario",
+        "type": "equipment",
+        "groupId": "documents",
+        "order": 4
+      },
+      {
+        "value": false,
+        "id": "agencyInvoice",
+        "label": "Refacturado por agencia",
+        "type": "equipment",
+        "groupId": "documents",
+        "order": 5
+      },
+      {
+        "value": false,
+        "id": "insuranceBill",
+        "label": "Refacturado por aseguradora",
+        "type": "equipment",
+        "groupId": "documents",
+        "order": 6
+      },
+      {
+        "value": false,
+        "id": "companyInvoice",
+        "label": "Refacturado por empresa",
+        "type": "equipment",
+        "groupId": "documents",
+        "order": 7
+      },
+      {
+        "value": false,
+        "id": "leaseholdFinancing",
+        "label": "Se traspasa financiamiento",
+        "type": "equipment",
+        "groupId": "documents",
+        "order": 8
+      },
+      {
+        "value": false,
+        "id": "currentInsurance",
+        "label": "Seguro vigente",
+        "type": "equipment",
+        "groupId": "documents",
+        "order": 9
+      },
+      {
+        "value": false,
+        "id": "workShopServices",
+        "label": "Servicios de agencia",
+        "type": "equipment",
+        "groupId": "documents",
+        "order": 10
+      },
+      {
+        "value": false,
+        "id": "carDocument",
+        "label": "Tenencias pagadas",
+        "type": "equipment",
+        "groupId": "documents",
+        "order": 11
+      },
+      {
+        "value": false,
+        "id": "demoVehicle",
+        "label": "Vehículo Demo",
+        "type": "equipment",
+        "groupId": "documents",
+        "order": 12
+      },
+      {
+        "value": false,
+        "id": "garantyPlant",
+        "label": "Auto con garantía de planta",
+        "type": "equipment",
+        "groupId": "documents",
+        "order": 13
+      },
+      {
+        "value": false,
+        "id": "environVerification",
+        "label": "Verificación ambiental vigente",
+        "type": "equipment",
+        "groupId": "documents",
+        "order": 14
+      },
+      {
+        "value": false,
+        "id": "mechanicalWarranty",
+        "label": "Con garantía mecánica",
+        "type": "equipment",
+        "groupId": "documents",
+        "order": 15
+      },
+      {
+        "value": false,
+        "id": "carRecovered",
+        "label": "Auto recuperado",
+        "type": "equipment",
+        "groupId": "documents",
+        "order": 16
+      },
+      {
+        "value": false,
+        "id": "offCylinder",
+        "label": "Apagado de cilindros",
+        "type": "equipment",
+        "groupId": "electric",
+        "order": 0
+      },
+      {
+        "value": true,
+        "id": "powerSeats",
+        "label": "Asiento conductor",
+        "type": "equipment",
+        "groupId": "electric",
+        "order": 1
+      },
+      {
+        "value": false,
+        "id": "centralLock",
+        "label": "Cierre centralizado",
+        "type": "equipment",
+        "groupId": "electric",
+        "order": 2
+      },
+      {
+        "value": false,
+        "id": "powerTrunkClosing",
+        "label": "Cierre eléctrico de cajuela",
+        "type": "equipment",
+        "groupId": "electric",
+        "order": 3
+      },
+      {
+        "value": true,
+        "id": "computer",
+        "label": "Computadora de viaje",
+        "type": "equipment",
+        "groupId": "electric",
+        "order": 4
+      },
+      {
+        "value": true,
+        "id": "powerWindows",
+        "label": "Elevadores de cristal",
+        "type": "equipment",
+        "groupId": "electric",
+        "order": 5
+      },
+      {
+        "value": false,
+        "id": "lighter",
+        "label": "Encendedor",
+        "type": "equipment",
+        "groupId": "electric",
+        "order": 6
+      },
+      {
+        "value": false,
+        "id": "remoteIgnition",
+        "label": "Encendido Remoto",
+        "type": "equipment",
+        "groupId": "electric",
+        "order": 7
+      },
+      {
+        "value": false,
+        "id": "powerMirrors",
+        "label": "Espejos laterales",
+        "type": "equipment",
+        "groupId": "electric",
+        "order": 8
+      },
+      {
+        "value": false,
+        "id": "immobilizer",
+        "label": "Inmovilizador",
+        "type": "equipment",
+        "groupId": "electric",
+        "order": 9
+      },
+      {
+        "value": false,
+        "id": "powerDoorLocks",
+        "label": "Seguros",
+        "type": "equipment",
+        "groupId": "electric",
+        "order": 10
+      },
+      {
+        "value": false,
+        "id": "boardProjected",
+        "label": "Tablero proyectado en el parabrisas",
+        "type": "equipment",
+        "groupId": "electric",
+        "order": 11
+      },
+      {
+        "value": false,
+        "id": "tachometer",
+        "label": "Tacómetro",
+        "type": "equipment",
+        "groupId": "electric",
+        "order": 12
+      },
+      {
+        "value": false,
+        "id": "bedLiner",
+        "label": "Alberca/Tina (camioneta)",
+        "type": "equipment",
+        "groupId": "extra",
+        "order": 0
+      },
+      {
+        "value": false,
+        "id": "towingPackage",
+        "label": "Paquete de arrastre",
+        "type": "equipment",
+        "groupId": "extra",
+        "order": 1
+      },
+      {
+        "value": false,
+        "id": "sunroof",
+        "label": "Quemacocos",
+        "type": "equipment",
+        "groupId": "extra",
+        "order": 2
+      },
+      {
+        "value": true,
+        "id": "alloyWheels",
+        "label": "Rines de aluminio y/o aleación",
+        "type": "equipment",
+        "groupId": "extra",
+        "order": 3
+      },
+      {
+        "value": true,
+        "id": "spoilers",
+        "label": "Spoilers",
+        "type": "equipment",
+        "groupId": "extra",
+        "order": 4
+      },
+      {
+        "value": false,
+        "id": "glassRoof",
+        "label": "Techo de cristal",
+        "type": "equipment",
+        "groupId": "extra",
+        "order": 5
+      },
+      {
+        "value": true,
+        "id": "bluetooth",
+        "label": "Bluetooth",
+        "type": "equipment",
+        "groupId": "gadgets",
+        "order": 0
+      },
+      {
+        "value": false,
+        "id": "gpsLocator",
+        "label": "Localizador satelital",
+        "type": "equipment",
+        "groupId": "gadgets",
+        "order": 1
+      },
+      {
+        "value": false,
+        "id": "navigationSystem",
+        "label": "Sistema de navegación GPS",
+        "type": "equipment",
+        "groupId": "gadgets",
+        "order": 2
+      },
+      {
+        "value": false,
+        "id": "alarm",
+        "label": "Alarma",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 0
+      },
+      {
+        "value": false,
+        "id": "childSeatAnchor",
+        "label": "Anclaje para asientos infantiles",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 1
+      },
+      {
+        "value": false,
+        "id": "airBagPassenger",
+        "label": "Bolsa de aire acompañante",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 2
+      },
+      {
+        "value": true,
+        "id": "airBag",
+        "label": "Bolsa de aire conductor",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 3
+      },
+      {
+        "value": true,
+        "id": "sideAirBags",
+        "label": "Bolsa de aire laterales",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 4
+      },
+      {
+        "value": true,
+        "id": "airBagCourtain",
+        "label": "Bolsas de aire cortina",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 5
+      },
+      {
+        "value": false,
+        "id": "kneeAirbags",
+        "label": "Bolsas de aire para rodillas",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 6
+      },
+      {
+        "value": false,
+        "id": "backSeatAirBag",
+        "label": "Bolsas de aire traseras",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 7
+      },
+      {
+        "value": false,
+        "id": "parkingCamera",
+        "label": "Cámara de estacionamiento",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 8
+      },
+      {
+        "value": true,
+        "id": "frontSeatBelts",
+        "label": "Cinturones de seguridad delanteros",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 9
+      },
+      {
+        "value": false,
+        "id": "3rdSeatBelts",
+        "label": "Cinturones de seguridad tercera fila",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 10
+      },
+      {
+        "value": true,
+        "id": "backSeatBelts",
+        "label": "Cinturones de seguridad traseros",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 11
+      },
+      {
+        "value": true,
+        "id": "stabilitySystem",
+        "label": "Control de estabilidad",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 12
+      },
+      {
+        "value": true,
+        "id": "tractionControl",
+        "label": "Control de tracción",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 13
+      },
+      {
+        "value": false,
+        "id": "rearDefrost",
+        "label": "Desempañador en espejos laterales",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 14
+      },
+      {
+        "value": false,
+        "id": "daytimeLights",
+        "label": "Encendido diurno automático",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 15
+      },
+      {
+        "value": false,
+        "id": "dimmingMirrior",
+        "label": "Espejo retrovisor antideslumbrante",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 16
+      },
+      {
+        "value": true,
+        "id": "fogLamps",
+        "label": "Faros de niebla",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 17
+      },
+      {
+        "value": false,
+        "id": "fogLightsRear",
+        "label": "Faros de niebla traseros",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 18
+      },
+      {
+        "value": false,
+        "id": "adjustableLights",
+        "label": "Faros regulables de altura",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 19
+      },
+      {
+        "value": true,
+        "id": "abs",
+        "label": "Frenos ABS",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 20
+      },
+      {
+        "value": true,
+        "id": "discBrakes",
+        "label": "Frenos de disco traseros",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 21
+      },
+      {
+        "value": false,
+        "id": "xenonLights",
+        "label": "Luces de Xenon",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 22
+      },
+      {
+        "value": false,
+        "id": "glassSecurity",
+        "label": "Película anti-asalto",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 23
+      },
+      {
+        "value": false,
+        "id": "rollbar",
+        "label": "Rollbar",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 24
+      },
+      {
+        "value": true,
+        "id": "rainSensor",
+        "label": "Sensor de lluvia",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 25
+      },
+      {
+        "value": true,
+        "id": "sensorLaneChange",
+        "label": "Sensor para cambio de carril",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 26
+      },
+      {
+        "value": false,
+        "id": "brakeAssist",
+        "label": "Sistema de asistencia de frenado",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 27
+      },
+      {
+        "value": false,
+        "id": "tattooSerial",
+        "label": "Tatuaje de número de serie",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 28
+      }
+    ],
+    "thumbnail": "https://s3.amazonaws.com/stg01maxiaublica/uploads/2024/4/777/20895027/seat_arona_2018_972345436_d.jpeg",
+    "descriptionId": 20895027,
+    "sellerId": 777,
+    "categoryId": "v_1_51_10_1_3",
+    "title": "Seat Arona 2018",
+    "price": 315000,
+    "currency": "MXN",
+    "condition": "Usado",
+    "countryId": "MX",
+    "images": [
+      {
+        "id": 12788394,
+        "size": "1200x1200",
+        "url": "https://s3.amazonaws.com/stg01maxiaublica/uploads/2024/4/777/20895027/seat_arona_2018_972345436_a.jpeg"
+      },
+      {
+        "id": 12788395,
+        "size": "1200x1200",
+        "url": "https://s3.amazonaws.com/stg01maxiaublica/uploads/2024/4/3885/20895026/seat_arona_2018_41c24480aa332_a.jpg"
+      },
+      {
+        "id": 12788396,
+        "size": "1200x1200",
+        "url": "https://s3.amazonaws.com/stg01maxiaublica/uploads/2024/4/3885/20895026/seat_arona_2018_260493216ab3c_a.jpg"
+      },
+      {
+        "id": 12788397,
+        "size": "1200x1200",
+        "url": "https://s3.amazonaws.com/stg01maxiaublica/uploads/2024/4/3885/20895026/seat_arona_2018_a3bfc8d6fab85_a.jpg"
+      },
+      {
+        "id": 12788398,
+        "size": "1200x1200",
+        "url": "https://s3.amazonaws.com/stg01maxiaublica/uploads/2024/4/3885/20895026/seat_arona_2018_aa2d56cb7b776_a.jpg"
+      },
+      {
+        "id": 12788399,
+        "size": "1200x1200",
+        "url": "https://s3.amazonaws.com/stg01maxiaublica/uploads/2024/4/3885/20895026/seat_arona_2018_585376d563689_a.jpg"
+      },
+      {
+        "id": 12788400,
+        "size": "1200x1200",
+        "url": "https://s3.amazonaws.com/stg01maxiaublica/uploads/2024/4/3885/20895026/seat_arona_2018_50333e56ad49b_a.jpg"
+      },
+      {
+        "id": 12788401,
+        "size": "1200x1200",
+        "url": "https://s3.amazonaws.com/stg01maxiaublica/uploads/2024/4/3885/20895026/seat_arona_2018_821e8a67b0228_a.jpg"
+      },
+      {
+        "id": 12788402,
+        "size": "1200x1200",
+        "url": "https://s3.amazonaws.com/stg01maxiaublica/uploads/2024/4/3885/20895026/seat_arona_2018_3b8e94e30e016_a.jpg"
+      },
+      {
+        "id": 12788403,
+        "size": "1200x1200",
+        "url": "https://s3.amazonaws.com/stg01maxiaublica/uploads/2024/4/3885/20895026/seat_arona_2018_bea828f305782_a.jpg"
+      },
+      {
+        "id": 12788404,
+        "size": "1200x1200",
+        "url": "https://s3.amazonaws.com/stg01maxiaublica/uploads/2024/4/3885/20895026/seat_arona_2018_5d298eec196fb_a.jpg"
+      },
+      {
+        "id": 12788405,
+        "size": "1200x1200",
+        "url": "https://s3.amazonaws.com/stg01maxiaublica/uploads/2024/4/3885/20895026/seat_arona_2018_74713d62e952f_a.jpg"
+      },
+      {
+        "id": 12788406,
+        "size": "1200x1200",
+        "url": "https://s3.amazonaws.com/stg01maxiaublica/uploads/2024/4/3885/20895026/seat_arona_2018_d0cbd02048e04_a.jpg"
+      },
+      {
+        "id": 12788407,
+        "size": "1200x1200",
+        "url": "https://s3.amazonaws.com/stg01maxiaublica/uploads/2024/4/3885/20895026/seat_arona_2018_1bea6d5423312_a.jpg"
+      },
+      {
+        "id": 12788408,
+        "size": "1200x1200",
+        "url": "https://s3.amazonaws.com/stg01maxiaublica/uploads/2024/4/3885/20895026/seat_arona_2018_a9ffe5d2ebc58_a.jpg"
+      }
+    ]
+  },
+
+  {
+    "_id": 20902517,
+    "seller": {
+      "groupId": [5],
+      "groupKey": ["9vkZ6wgpvSk6Z3BWjFxG"],
+      "photo": "https://s3.amazonaws.com/images.maxipublica.com/customer/sellers/53d983dd137476712545f04dc6e60498bc4c8bf983/8764832eea008_a.jpeg",
+      "commercialName": "Mgp Dev Autos Xochi",
+      "logo": "https://s3.amazonaws.com/images.maxipublica.com/customer/sellers/777/719d08db43490_a.jpeg",
+      "phone": [
+        {
+          "type": "mobile",
+          "number": "5553508885",
+          "action": "+5215553508885",
+          "format": "Cel. (55) 5350-8885",
+          "extension": "",
+          "nextelId": ""
+        },
+        {
+          "type": "office",
+          "number": "5544242080",
+          "format": "(55) 4424-2080 ext.180",
+          "action": "+525544242080,180",
+          "extension": "180",
+          "nextelId": ""
+        }
+      ]
+    },
+    "location": {
+      "location": {
+        "neighborhood": {
+          "name": "Santa Fe Cuajimalpa",
+          "id": "COL090040792"
+        },
+        "city": {
+          "name": "Cuajimalpa de Morelos",
+          "id": "CTY09004"
+        },
+        "state": {
+          "name": "Distrito Federal",
+          "id": "STS14"
+        },
+        "country": {
+          "name": "México",
+          "id": "MX"
+        }
+      },
+      "geoReference": "19.358146873244483,-99.27859003432643,17z",
+      "zipCode": "05348",
+      "numInt": "302",
+      "numExt": "50",
+      "street": "Juan Salvador Agraz"
+    },
+    "status": "active",
+    "variations": [],
+    "attributes": [
+      {
+        "value": "Mazda Mazda 3 2020",
+        "id": "title",
+        "label": "Título",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 0
+      },
+      {
+        "value": 81125,
+        "id": "odometer",
+        "label": "Odómetro",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 0
+      },
+      {
+        "value": "Km",
+        "id": "odometerUnits",
+        "label": "Unidades",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 1,
+        "valueId": "ODOMETER_UNITS-KM"
+      },
+      {
+        "value": "Original",
+        "id": "odometerStatus",
+        "label": "Estatus",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 2,
+        "valueId": "ODOMETER_STATUS-ORIGINAL"
+      },
+      {
+        "value": 339000,
+        "id": "price",
+        "label": "Precio total al contado",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 0
+      },
+      {
+        "value": "MXN",
+        "id": "currency",
+        "label": "Moneda",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 1,
+        "valueId": "CURRENCIE-MXN"
+      },
+      {
+        "value": "Negociable",
+        "id": "priceType",
+        "label": "Tipo de precio",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 2,
+        "valueId": "PRICETYPE-NEGOTIABLE"
+      },
+      {
+        "value": null,
+        "id": "previousPrice",
+        "label": "Precio anterior",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 0
+      },
+      {
+        "value": "MXN",
+        "id": "previousCurrency",
+        "label": "Moneda del precio anterior",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 1,
+        "valueId": "CURRENCIE-MXN"
+      },
+      {
+        "value": false,
+        "id": "isPriceOffer",
+        "label": "Es precio de oferta",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 2
+      },
+      {
+        "value": "Sin financiamiento",
+        "id": "finantial",
+        "label": "Financiamiento",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 3,
+        "valueId": "FINANCING-NONE"
+      },
+      {
+        "value": "Automática",
+        "id": "transmission",
+        "label": "Transmisión",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 4,
+        "valueId": "TRANS-AUTOMATICA"
+      },
+      {
+        "value": "Asistida",
+        "id": "direction",
+        "label": "Dirección",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 5,
+        "valueId": "DIRECCION-ASISTIDA"
+      },
+      {
+        "value": "Piel (Cuero)",
+        "id": "vesture",
+        "label": "Vestidura",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 6,
+        "valueId": "VESTURE-PIEL"
+      },
+      {
+        "value": "Gasolina",
+        "id": "energy",
+        "label": "Combustible o energía",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 7,
+        "valueId": "FUEL-GASOLINA"
+      },
+      {
+        "value": "Hatchback",
+        "id": "bodyType",
+        "label": "Segmento",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 8,
+        "valueId": "BODY-HB"
+      },
+      {
+        "value": "Usado",
+        "id": "condition",
+        "label": "Condición",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 9,
+        "valueId": "CONDITION-USED"
+      },
+      {
+        "value": "Blanco",
+        "id": "colorExt",
+        "label": "Color exterior",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 10,
+        "valueId": "COLOREXT-BLANCO"
+      },
+      {
+        "value": "Negro",
+        "id": "colorInt",
+        "label": "Color interior",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 11,
+        "valueId": "COLORINT-NEGRO"
+      },
+      {
+        "value": "Si Automático",
+        "id": "climate",
+        "label": "Aire acondicionado",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 12,
+        "valueId": "CLIMATE-SI_AUTOMATICO"
+      },
+      {
+        "value": "Delantera",
+        "id": "traction",
+        "label": "Tracción",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 13,
+        "valueId": "TRACTION-DELANTERA"
+      },
+      {
+        "value": "No",
+        "id": "armour",
+        "label": "Blindaje",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 14,
+        "valueId": "ARMOUR-NO"
+      },
+      {
+        "value": "3MZBPCDL7LM128177",
+        "id": "vin",
+        "label": "Número de identificación vehicular",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 15
+      },
+      {
+        "value": "",
+        "id": "waranty",
+        "label": "Garantía",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 16,
+        "valueId": ""
+      },
+      {
+        "value": "",
+        "id": "descriptionHtml",
+        "label": "Descripción en HTML (Sólo se usará para MercadoLibre)",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 17
+      },
+      {
+        "value": "",
+        "id": "badge",
+        "label": "Distintivo",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 18,
+        "valueId": "BADGE-APARTADO"
+      },
+      {
+        "value": "",
+        "id": "numberPlate",
+        "label": "No. de Placa",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 19
+      },
+      {
+        "value": "",
+        "id": "statePlate",
+        "label": "Entidad federativa de la placa",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 20,
+        "valueId": null
+      },
+      {
+        "value": null,
+        "id": "purchaseDate",
+        "label": "Fecha de compra",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 21
+      },
+      {
+        "value": "",
+        "id": "conditionsReport",
+        "label": "Reporte de condiciones",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 22
+      },
+      {
+        "value": "",
+        "id": "ownersNumber",
+        "label": "Cantidad de dueños",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 23,
+        "valueId": null
+      },
+      {
+        "value": "",
+        "id": "invoicesNumber",
+        "label": "Cantidad de facturas",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 24,
+        "valueId": null
+      },
+      {
+        "value": "",
+        "id": "warranty",
+        "label": "Garantía",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 25,
+        "valueId": null
+      },
+      {
+        "value": "",
+        "id": "source360",
+        "label": "Recurso 360",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 26
+      },
+      {
+        "value": "",
+        "id": "source360UrlVideo",
+        "label": "Url de video 360",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 27
+      },
+      {
+        "value": "",
+        "id": "source360UrlVideoThumbnail",
+        "label": "Url del thumbnail de video 360",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 28
+      },
+      {
+        "value": "",
+        "id": "source360UrlIframe",
+        "label": "Url del iframe 360",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 29
+      },
+      {
+        "value": "",
+        "id": "source360Frames",
+        "label": "Urls de frames",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 30
+      },
+      {
+        "value": null,
+        "id": "source360Degrees",
+        "label": "Cobertura del giro",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 31
+      },
+      {
+        "value": null,
+        "id": "source360NumberOfFrames",
+        "label": "Número de frames",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 32
+      },
+      {
+        "value": "",
+        "id": "descriptionTxt",
+        "label": "Descripción",
+        "type": "attribute",
+        "groupId": "description",
+        "order": 0
+      },
+      {
+        "value": true,
+        "id": "useDescription",
+        "label": "Usar descripción automática",
+        "type": "attribute",
+        "groupId": "description",
+        "order": 1
+      },
+      {
+        "value": "Mazda Mazda 3 2020 4p i SPORT GRAND TOURING L4/2.5 AUT. \n\nTipo de precio: Negociable\nTransmisión: Automática\nDirección: Asistida\nVestidura: Piel (Cuero)\nCombustible o energía: Gasolina\nSegmento: Hatchback\nCondición: Usado\nColor exterior: Blanco\nColor interior: Negro\nCon aire acondicionado automático\nTracción: Delantera\nPuertas: 4\nPasajeros: 5\nVelocidades: 6\nCilindros: 4\nVálvulas: 4\nPotencia en HP: 186\nTorque máximo libras/pie: 186\nConsumo en combinado (Km/l): 15.2\nDiámetro de rines (pulgadas): 18\nLargo del vehículo (mm): 4662\nAlto del vehículo (mm): 1445\nPeso (Kg): 1408\n\nEQUIPAMIENTO:\n\n- Audio: bocinas, controles remotos del equipo de audio, entrada auxiliar, puerto usb.\n\n- Confort: aire acondicionado, altura del volante ajustable, botón de arranque del vehículo, control automático de velocidad, desempañador trasero, espejo de vanidad, profundidad del volante ajustable, sensor de estacionamiento, sistema de control por voz para funciones, volante de posiciones.\n\n- Eléctrico: asiento conductor, computadora de viaje, elevadores de cristal.\n\n- Extras: quemacocos, rines de aluminio y/o aleación, spoilers.\n\n- Gadgets: bluetooth.\n\n- Seguridad: bolsa de aire conductor, bolsa de aire laterales, bolsas de aire cortina, bolsas de aire para rodillas, cinturones de seguridad delanteros, cinturones de seguridad traseros, control de estabilidad, control de tracción, faros de niebla, frenos abs, frenos de disco traseros, sensor de lluvia, sensor para cambio de carril.",
+        "id": "descriptionAut",
+        "label": "Descripción",
+        "type": "attribute",
+        "groupId": "description",
+        "order": 2
+      },
+      {
+        "value": "",
+        "id": "descriptionFooter",
+        "label": "Descripción",
+        "type": "attribute",
+        "groupId": "description",
+        "order": 3
+      },
+      {
+        "value": "",
+        "id": "hologram",
+        "label": "Holograma ambiental",
+        "type": "attribute",
+        "groupId": "advanced",
+        "order": 0,
+        "valueId": "HOLOLGRAM-0"
+      },
+      {
+        "value": "4",
+        "id": "doors",
+        "label": "Puertas",
+        "type": "attribute",
+        "groupId": "advanced",
+        "order": 1,
+        "valueId": "DOORS-4"
+      },
+      {
+        "value": "5",
+        "id": "passengers",
+        "label": "Pasajeros",
+        "type": "attribute",
+        "groupId": "advanced",
+        "order": 2,
+        "valueId": "PASSENGERS-5"
+      },
+      {
+        "value": "6",
+        "id": "speeds",
+        "label": "Velocidades",
+        "type": "attribute",
+        "groupId": "advanced",
+        "order": 3,
+        "valueId": "SPPEDS-6"
+      },
+      {
+        "value": "4",
+        "id": "cylinders",
+        "label": "Cilindros",
+        "type": "attribute",
+        "groupId": "advanced",
+        "order": 4,
+        "valueId": "CYLINDERS-4"
+      },
+      {
+        "value": "4",
+        "id": "valves",
+        "label": "Válvulas",
+        "type": "attribute",
+        "groupId": "advanced",
+        "order": 5,
+        "valueId": "VALVES-4"
+      },
+      {
+        "value": null,
+        "id": "displacement",
+        "label": "Cilindrada",
+        "type": "attribute",
+        "groupId": "advanced",
+        "order": 6
+      },
+      {
+        "value": 186,
+        "id": "power",
+        "label": "Potencia en HP",
+        "type": "attribute",
+        "groupId": "advanced",
+        "order": 7
+      },
+      {
+        "value": 186,
+        "id": "torque",
+        "label": "Torque máximo libras/pie",
+        "type": "attribute",
+        "groupId": "advanced",
+        "order": 8
+      },
+      {
+        "value": null,
+        "id": "tankCapacity",
+        "label": "Capacidad del tanque (l)",
+        "type": "attribute",
+        "groupId": "advanced",
+        "order": 9
+      },
+      {
+        "value": null,
+        "id": "consumptionCity",
+        "label": "Consumo en ciudad (Km/l)",
+        "type": "attribute",
+        "groupId": "advanced",
+        "order": 10
+      },
+      {
+        "value": null,
+        "id": "consumptionRoad",
+        "label": "Consumo en carretera (Km/l)",
+        "type": "attribute",
+        "groupId": "advanced",
+        "order": 11
+      },
+      {
+        "value": 15.2,
+        "id": "consumptionCombined",
+        "label": "Consumo en combinado (Km/l)",
+        "type": "attribute",
+        "groupId": "advanced",
+        "order": 12
+      },
+      {
+        "value": 18,
+        "id": "diameterWheels",
+        "label": "Diámetro de rines (pulgadas)",
+        "type": "attribute",
+        "groupId": "advanced",
+        "order": 13
+      },
+      {
+        "value": 4662,
+        "id": "dimensionsLength",
+        "label": "Largo del vehículo (mm)",
+        "type": "attribute",
+        "groupId": "advanced",
+        "order": 14
+      },
+      {
+        "value": null,
+        "id": "dimensionsWidth",
+        "label": "Ancho del vehículo (mm)",
+        "type": "attribute",
+        "groupId": "advanced",
+        "order": 15
+      },
+      {
+        "value": 1445,
+        "id": "dimensionsHeight",
+        "label": "Alto del vehículo (mm)",
+        "type": "attribute",
+        "groupId": "advanced",
+        "order": 16
+      },
+      {
+        "value": 1408,
+        "id": "dimensionsWeight",
+        "label": "Peso (Kg)",
+        "type": "attribute",
+        "groupId": "advanced",
+        "order": 17
+      },
+      {
+        "value": "Jalisco-Mazda Galerias",
+        "id": "stock",
+        "label": "Número de inventario",
+        "type": "attribute",
+        "groupId": "business",
+        "order": 0
+      },
+      {
+        "value": null,
+        "id": "purchasePrice",
+        "label": "Precio de compra",
+        "type": "attribute",
+        "groupId": "business",
+        "order": 1
+      },
+      {
+        "value": "Mazda",
+        "id": "brand",
+        "label": "Marca",
+        "type": "category",
+        "groupId": "catalog",
+        "order": 0,
+        "valueId": "v_1_36"
+      },
+      {
+        "value": "Mazda 3",
+        "id": "model",
+        "label": "Modelo",
+        "type": "category",
+        "groupId": "catalog",
+        "order": 1,
+        "valueId": "v_1_36_2"
+      },
+      {
+        "value": "2020",
+        "id": "year",
+        "label": "Año",
+        "type": "category",
+        "groupId": "catalog",
+        "order": 2,
+        "valueId": "v_1_36_2_27"
+      },
+      {
+        "value": "4p i SPORT GRAND TOURING L4/2.5 AUT",
+        "id": "trim",
+        "label": "Versión",
+        "type": "category",
+        "groupId": "catalog",
+        "order": 3,
+        "valueId": "v_1_36_2_27_5"
+      },
+      {
+        "value": false,
+        "id": "antenna",
+        "label": "Antena",
+        "type": "equipment",
+        "groupId": "audio",
+        "order": 0
+      },
+      {
+        "value": false,
+        "id": "wirelessHeadphones",
+        "label": "Audífonos inalámbricos",
+        "type": "equipment",
+        "groupId": "audio",
+        "order": 1
+      },
+      {
+        "value": true,
+        "id": "speakers",
+        "label": "Bocinas",
+        "type": "equipment",
+        "groupId": "audio",
+        "order": 2
+      },
+      {
+        "value": false,
+        "id": "boxDisk",
+        "label": "Caja de discos",
+        "type": "equipment",
+        "groupId": "audio",
+        "order": 3
+      },
+      {
+        "value": true,
+        "id": "remoteControlAudio",
+        "label": "Controles remotos del equipo de audio",
+        "type": "equipment",
+        "groupId": "audio",
+        "order": 4
+      },
+      {
+        "value": true,
+        "id": "auxiliaryInput",
+        "label": "Entrada auxiliar",
+        "type": "equipment",
+        "groupId": "audio",
+        "order": 5
+      },
+      {
+        "value": false,
+        "id": "ipodPort",
+        "label": "Interface para iPod",
+        "type": "equipment",
+        "groupId": "audio",
+        "order": 6
+      },
+      {
+        "value": false,
+        "id": "screenEntertainment",
+        "label": "Pantalla entretenimiento",
+        "type": "equipment",
+        "groupId": "audio",
+        "order": 7
+      },
+      {
+        "value": true,
+        "id": "usbPort",
+        "label": "Puerto USB",
+        "type": "equipment",
+        "groupId": "audio",
+        "order": 8
+      },
+      {
+        "value": false,
+        "id": "satelitalRadio",
+        "label": "Radio satelital",
+        "type": "equipment",
+        "groupId": "audio",
+        "order": 9
+      },
+      {
+        "value": false,
+        "id": "cdPlayer",
+        "label": "Reproductor CD/MP3",
+        "type": "equipment",
+        "groupId": "audio",
+        "order": 10
+      },
+      {
+        "value": true,
+        "id": "airConditioning",
+        "label": "Aire acondicionado",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 0
+      },
+      {
+        "value": false,
+        "id": "airConditioningDoubleZone",
+        "label": "Aire acondicionado doble zona",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 1
+      },
+      {
+        "value": false,
+        "id": "adjustmentElectricWheel",
+        "label": "Ajuste del volante eléctrico",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 2
+      },
+      {
+        "value": false,
+        "id": "lumbarAdjustment",
+        "label": "Ajuste lumbar",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 3
+      },
+      {
+        "value": false,
+        "id": "aleron",
+        "label": "Alerón",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 4
+      },
+      {
+        "value": true,
+        "id": "heightWheel",
+        "label": "Altura del volante ajustable",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 5
+      },
+      {
+        "value": false,
+        "id": "openTrunkFuel",
+        "label": "Apertura de cajuela y tapa combustible",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 6
+      },
+      {
+        "value": false,
+        "id": "remoteTrunk",
+        "label": "Apertura remota de cajuela",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 7
+      },
+      {
+        "value": false,
+        "id": "remoteGarage",
+        "label": "Apertura remota de garage",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 8
+      },
+      {
+        "value": false,
+        "id": "foldingRearSeat",
+        "label": "Asientos traseros abatibles",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 9
+      },
+      {
+        "value": true,
+        "id": "startButton",
+        "label": "Botón de arranque del vehículo",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 10
+      },
+      {
+        "value": false,
+        "id": "heatedSeats",
+        "label": "Calefacción en asientos",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 11
+      },
+      {
+        "value": false,
+        "id": "luggageRack",
+        "label": "Canastilla portaequipaje",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 12
+      },
+      {
+        "value": false,
+        "id": "carEntertaiment",
+        "label": "Centro de entretenimiento con DVD",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 13
+      },
+      {
+        "value": false,
+        "id": "automaticDoor",
+        "label": "Cierre automático de puertas",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 14
+      },
+      {
+        "value": true,
+        "id": "cruiseControl",
+        "label": "Control automático de velocidad",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 15
+      },
+      {
+        "value": false,
+        "id": "automaticAir",
+        "label": "Control de temperatura automática",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 16
+      },
+      {
+        "value": true,
+        "id": "rearDefroster",
+        "label": "Desempañador trasero",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 17
+      },
+      {
+        "value": true,
+        "id": "vanityMirror",
+        "label": "Espejo de vanidad",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 18
+      },
+      {
+        "value": false,
+        "id": "doorMirriors",
+        "label": "Espejos laterales retractiles",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 19
+      },
+      {
+        "value": false,
+        "id": "rearWiper",
+        "label": "Limpiador trasero",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 20
+      },
+      {
+        "value": false,
+        "id": "memorySeats",
+        "label": "Memoria en asientos",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 21
+      },
+      {
+        "value": false,
+        "id": "adjustablePedals",
+        "label": "Pedales ajustables",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 22
+      },
+      {
+        "value": true,
+        "id": "depthWheel",
+        "label": "Profundidad del volante ajustable",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 23
+      },
+      {
+        "value": false,
+        "id": "dvdPlayer",
+        "label": "Reproductor de DVD",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 24
+      },
+      {
+        "value": false,
+        "id": "keylessEntry",
+        "label": "Sensor de apertura",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 25
+      },
+      {
+        "value": true,
+        "id": "parkingSensor",
+        "label": "Sensor de estacionamiento",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 26
+      },
+      {
+        "value": true,
+        "id": "systemVoice",
+        "label": "Sistema de control por voz para funciones",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 27
+      },
+      {
+        "value": false,
+        "id": "thirdRowSeats",
+        "label": "Tercera fila de asientos",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 28
+      },
+      {
+        "value": false,
+        "id": "carThermometer",
+        "label": "Termómetro ambiental",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 29
+      },
+      {
+        "value": false,
+        "id": "tintedWindows",
+        "label": "Vidrios entintados",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 30
+      },
+      {
+        "value": true,
+        "id": "wheelPositions",
+        "label": "Volante de posiciones",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 31
+      },
+      {
+        "value": false,
+        "id": "wheelControls",
+        "label": "Volante multifunciones",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 32
+      },
+      {
+        "value": false,
+        "id": "leatherWheel",
+        "label": "Volante revestido en piel",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 33
+      },
+      {
+        "value": false,
+        "id": "certificated",
+        "label": "Certificado",
+        "type": "equipment",
+        "groupId": "documents",
+        "order": 0
+      },
+      {
+        "value": false,
+        "id": "taxItemized",
+        "label": "Factura IVA desglosado",
+        "type": "equipment",
+        "groupId": "documents",
+        "order": 1
+      },
+      {
+        "value": false,
+        "id": "originalInvoice",
+        "label": "Factura original",
+        "type": "equipment",
+        "groupId": "documents",
+        "order": 2
+      },
+      {
+        "value": false,
+        "id": "possibleChange",
+        "label": "Acepto vehículos a cuenta",
+        "type": "equipment",
+        "groupId": "documents",
+        "order": 3
+      },
+      {
+        "value": false,
+        "id": "firtsCarOwner",
+        "label": "Primer propietario",
+        "type": "equipment",
+        "groupId": "documents",
+        "order": 4
+      },
+      {
+        "value": false,
+        "id": "agencyInvoice",
+        "label": "Refacturado por agencia",
+        "type": "equipment",
+        "groupId": "documents",
+        "order": 5
+      },
+      {
+        "value": false,
+        "id": "insuranceBill",
+        "label": "Refacturado por aseguradora",
+        "type": "equipment",
+        "groupId": "documents",
+        "order": 6
+      },
+      {
+        "value": false,
+        "id": "companyInvoice",
+        "label": "Refacturado por empresa",
+        "type": "equipment",
+        "groupId": "documents",
+        "order": 7
+      },
+      {
+        "value": false,
+        "id": "leaseholdFinancing",
+        "label": "Se traspasa financiamiento",
+        "type": "equipment",
+        "groupId": "documents",
+        "order": 8
+      },
+      {
+        "value": false,
+        "id": "currentInsurance",
+        "label": "Seguro vigente",
+        "type": "equipment",
+        "groupId": "documents",
+        "order": 9
+      },
+      {
+        "value": false,
+        "id": "workShopServices",
+        "label": "Servicios de agencia",
+        "type": "equipment",
+        "groupId": "documents",
+        "order": 10
+      },
+      {
+        "value": false,
+        "id": "carDocument",
+        "label": "Tenencias pagadas",
+        "type": "equipment",
+        "groupId": "documents",
+        "order": 11
+      },
+      {
+        "value": false,
+        "id": "demoVehicle",
+        "label": "Vehículo Demo",
+        "type": "equipment",
+        "groupId": "documents",
+        "order": 12
+      },
+      {
+        "value": false,
+        "id": "garantyPlant",
+        "label": "Auto con garantía de planta",
+        "type": "equipment",
+        "groupId": "documents",
+        "order": 13
+      },
+      {
+        "value": false,
+        "id": "environVerification",
+        "label": "Verificación ambiental vigente",
+        "type": "equipment",
+        "groupId": "documents",
+        "order": 14
+      },
+      {
+        "value": false,
+        "id": "mechanicalWarranty",
+        "label": "Con garantía mecánica",
+        "type": "equipment",
+        "groupId": "documents",
+        "order": 15
+      },
+      {
+        "value": false,
+        "id": "carRecovered",
+        "label": "Auto recuperado",
+        "type": "equipment",
+        "groupId": "documents",
+        "order": 16
+      },
+      {
+        "value": false,
+        "id": "offCylinder",
+        "label": "Apagado de cilindros",
+        "type": "equipment",
+        "groupId": "electric",
+        "order": 0
+      },
+      {
+        "value": true,
+        "id": "powerSeats",
+        "label": "Asiento conductor",
+        "type": "equipment",
+        "groupId": "electric",
+        "order": 1
+      },
+      {
+        "value": false,
+        "id": "centralLock",
+        "label": "Cierre centralizado",
+        "type": "equipment",
+        "groupId": "electric",
+        "order": 2
+      },
+      {
+        "value": false,
+        "id": "powerTrunkClosing",
+        "label": "Cierre eléctrico de cajuela",
+        "type": "equipment",
+        "groupId": "electric",
+        "order": 3
+      },
+      {
+        "value": true,
+        "id": "computer",
+        "label": "Computadora de viaje",
+        "type": "equipment",
+        "groupId": "electric",
+        "order": 4
+      },
+      {
+        "value": true,
+        "id": "powerWindows",
+        "label": "Elevadores de cristal",
+        "type": "equipment",
+        "groupId": "electric",
+        "order": 5
+      },
+      {
+        "value": false,
+        "id": "lighter",
+        "label": "Encendedor",
+        "type": "equipment",
+        "groupId": "electric",
+        "order": 6
+      },
+      {
+        "value": false,
+        "id": "remoteIgnition",
+        "label": "Encendido Remoto",
+        "type": "equipment",
+        "groupId": "electric",
+        "order": 7
+      },
+      {
+        "value": false,
+        "id": "powerMirrors",
+        "label": "Espejos laterales",
+        "type": "equipment",
+        "groupId": "electric",
+        "order": 8
+      },
+      {
+        "value": false,
+        "id": "immobilizer",
+        "label": "Inmovilizador",
+        "type": "equipment",
+        "groupId": "electric",
+        "order": 9
+      },
+      {
+        "value": false,
+        "id": "powerDoorLocks",
+        "label": "Seguros",
+        "type": "equipment",
+        "groupId": "electric",
+        "order": 10
+      },
+      {
+        "value": false,
+        "id": "boardProjected",
+        "label": "Tablero proyectado en el parabrisas",
+        "type": "equipment",
+        "groupId": "electric",
+        "order": 11
+      },
+      {
+        "value": false,
+        "id": "tachometer",
+        "label": "Tacómetro",
+        "type": "equipment",
+        "groupId": "electric",
+        "order": 12
+      },
+      {
+        "value": false,
+        "id": "bedLiner",
+        "label": "Alberca/Tina (camioneta)",
+        "type": "equipment",
+        "groupId": "extra",
+        "order": 0
+      },
+      {
+        "value": false,
+        "id": "towingPackage",
+        "label": "Paquete de arrastre",
+        "type": "equipment",
+        "groupId": "extra",
+        "order": 1
+      },
+      {
+        "value": true,
+        "id": "sunroof",
+        "label": "Quemacocos",
+        "type": "equipment",
+        "groupId": "extra",
+        "order": 2
+      },
+      {
+        "value": true,
+        "id": "alloyWheels",
+        "label": "Rines de aluminio y/o aleación",
+        "type": "equipment",
+        "groupId": "extra",
+        "order": 3
+      },
+      {
+        "value": true,
+        "id": "spoilers",
+        "label": "Spoilers",
+        "type": "equipment",
+        "groupId": "extra",
+        "order": 4
+      },
+      {
+        "value": false,
+        "id": "glassRoof",
+        "label": "Techo de cristal",
+        "type": "equipment",
+        "groupId": "extra",
+        "order": 5
+      },
+      {
+        "value": true,
+        "id": "bluetooth",
+        "label": "Bluetooth",
+        "type": "equipment",
+        "groupId": "gadgets",
+        "order": 0
+      },
+      {
+        "value": false,
+        "id": "gpsLocator",
+        "label": "Localizador satelital",
+        "type": "equipment",
+        "groupId": "gadgets",
+        "order": 1
+      },
+      {
+        "value": false,
+        "id": "navigationSystem",
+        "label": "Sistema de navegación GPS",
+        "type": "equipment",
+        "groupId": "gadgets",
+        "order": 2
+      },
+      {
+        "value": false,
+        "id": "alarm",
+        "label": "Alarma",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 0
+      },
+      {
+        "value": false,
+        "id": "childSeatAnchor",
+        "label": "Anclaje para asientos infantiles",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 1
+      },
+      {
+        "value": false,
+        "id": "airBagPassenger",
+        "label": "Bolsa de aire acompañante",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 2
+      },
+      {
+        "value": true,
+        "id": "airBag",
+        "label": "Bolsa de aire conductor",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 3
+      },
+      {
+        "value": true,
+        "id": "sideAirBags",
+        "label": "Bolsa de aire laterales",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 4
+      },
+      {
+        "value": true,
+        "id": "airBagCourtain",
+        "label": "Bolsas de aire cortina",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 5
+      },
+      {
+        "value": true,
+        "id": "kneeAirbags",
+        "label": "Bolsas de aire para rodillas",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 6
+      },
+      {
+        "value": false,
+        "id": "backSeatAirBag",
+        "label": "Bolsas de aire traseras",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 7
+      },
+      {
+        "value": false,
+        "id": "parkingCamera",
+        "label": "Cámara de estacionamiento",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 8
+      },
+      {
+        "value": true,
+        "id": "frontSeatBelts",
+        "label": "Cinturones de seguridad delanteros",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 9
+      },
+      {
+        "value": false,
+        "id": "3rdSeatBelts",
+        "label": "Cinturones de seguridad tercera fila",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 10
+      },
+      {
+        "value": true,
+        "id": "backSeatBelts",
+        "label": "Cinturones de seguridad traseros",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 11
+      },
+      {
+        "value": true,
+        "id": "stabilitySystem",
+        "label": "Control de estabilidad",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 12
+      },
+      {
+        "value": true,
+        "id": "tractionControl",
+        "label": "Control de tracción",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 13
+      },
+      {
+        "value": false,
+        "id": "rearDefrost",
+        "label": "Desempañador en espejos laterales",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 14
+      },
+      {
+        "value": false,
+        "id": "daytimeLights",
+        "label": "Encendido diurno automático",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 15
+      },
+      {
+        "value": false,
+        "id": "dimmingMirrior",
+        "label": "Espejo retrovisor antideslumbrante",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 16
+      },
+      {
+        "value": true,
+        "id": "fogLamps",
+        "label": "Faros de niebla",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 17
+      },
+      {
+        "value": false,
+        "id": "fogLightsRear",
+        "label": "Faros de niebla traseros",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 18
+      },
+      {
+        "value": false,
+        "id": "adjustableLights",
+        "label": "Faros regulables de altura",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 19
+      },
+      {
+        "value": true,
+        "id": "abs",
+        "label": "Frenos ABS",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 20
+      },
+      {
+        "value": true,
+        "id": "discBrakes",
+        "label": "Frenos de disco traseros",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 21
+      },
+      {
+        "value": false,
+        "id": "xenonLights",
+        "label": "Luces de Xenon",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 22
+      },
+      {
+        "value": false,
+        "id": "glassSecurity",
+        "label": "Película anti-asalto",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 23
+      },
+      {
+        "value": false,
+        "id": "rollbar",
+        "label": "Rollbar",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 24
+      },
+      {
+        "value": true,
+        "id": "rainSensor",
+        "label": "Sensor de lluvia",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 25
+      },
+      {
+        "value": true,
+        "id": "sensorLaneChange",
+        "label": "Sensor para cambio de carril",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 26
+      },
+      {
+        "value": false,
+        "id": "brakeAssist",
+        "label": "Sistema de asistencia de frenado",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 27
+      },
+      {
+        "value": false,
+        "id": "tattooSerial",
+        "label": "Tatuaje de número de serie",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 28
+      }
+    ],
+    "thumbnail": "https://s3.amazonaws.com/stg01maxiaublica/uploads/2024/4/777/20902517/mazda_mazda-3_2020_688122336_d.jpeg",
+    "descriptionId": 20902517,
+    "sellerId": 777,
+    "categoryId": "v_1_36_2_27_5",
+    "title": "Mazda Mazda 3 2020",
+    "price": 339000,
+    "currency": "MXN",
+    "condition": "Usado",
+    "countryId": "MX",
+    "images": [
+      {
+        "id": 12834094,
+        "size": "1200x900",
+        "url": "https://s3.amazonaws.com/stg01maxiaublica/uploads/2024/4/777/20902517/mazda_mazda-3_2020_688122336_a.jpeg"
+      },
+      {
+        "id": 12834093,
+        "size": "1200x900",
+        "url": "https://s3.amazonaws.com/stg01maxiaublica/uploads/2024/4/3886/20902516/mazda_mazda-3_2020_fc9e7622218b2_a.jpeg"
+      },
+      {
+        "id": 12834095,
+        "size": "1200x900",
+        "url": "https://s3.amazonaws.com/stg01maxiaublica/uploads/2024/4/3886/20902516/mazda_mazda-3_2020_8f4a9a18d8781_a.jpeg"
+      },
+      {
+        "id": 12834108,
+        "size": "1200x900",
+        "url": "https://s3.amazonaws.com/stg01maxiaublica/uploads/2024/4/3886/20902516/mazda_mazda-3_2020_ca25829345a36_a.jpeg"
+      },
+      {
+        "id": 12834112,
+        "size": "1200x900",
+        "url": "https://s3.amazonaws.com/stg01maxiaublica/uploads/2024/4/3886/20902516/mazda_mazda-3_2020_22a271170b3e0_a.jpeg"
+      },
+      {
+        "id": 12834102,
+        "size": "1200x900",
+        "url": "https://s3.amazonaws.com/stg01maxiaublica/uploads/2024/4/3886/20902516/mazda_mazda-3_2020_048dcc36a8ea3_a.jpeg"
+      },
+      {
+        "id": 12834106,
+        "size": "1200x900",
+        "url": "https://s3.amazonaws.com/stg01maxiaublica/uploads/2024/4/3886/20902516/mazda_mazda-3_2020_70bcdbf176b5a_a.jpeg"
+      },
+      {
+        "id": 12834110,
+        "size": "1200x900",
+        "url": "https://s3.amazonaws.com/stg01maxiaublica/uploads/2024/4/3886/20902516/mazda_mazda-3_2020_5ae91785cd797_a.jpeg"
+      },
+      {
+        "id": 12834113,
+        "size": "1200x900",
+        "url": "https://s3.amazonaws.com/stg01maxiaublica/uploads/2024/4/3886/20902516/mazda_mazda-3_2020_712c4c507fac6_a.jpeg"
+      },
+      {
+        "id": 12834099,
+        "size": "1200x900",
+        "url": "https://s3.amazonaws.com/stg01maxiaublica/uploads/2024/4/3886/20902516/mazda_mazda-3_2020_e9761d2cb5f90_a.jpeg"
+      },
+      {
+        "id": 12834105,
+        "size": "1200x900",
+        "url": "https://s3.amazonaws.com/stg01maxiaublica/uploads/2024/4/3886/20902516/mazda_mazda-3_2020_48aac5ac3943b_a.jpeg"
+      },
+      {
+        "id": 12834103,
+        "size": "1200x900",
+        "url": "https://s3.amazonaws.com/stg01maxiaublica/uploads/2024/4/3886/20902516/mazda_mazda-3_2020_7ae976e5dd918_a.jpeg"
+      },
+      {
+        "id": 12834100,
+        "size": "1200x900",
+        "url": "https://s3.amazonaws.com/stg01maxiaublica/uploads/2024/4/3886/20902516/mazda_mazda-3_2020_bd8fb67917dc5_a.jpeg"
+      },
+      {
+        "id": 12834096,
+        "size": "1200x900",
+        "url": "https://s3.amazonaws.com/stg01maxiaublica/uploads/2024/4/3886/20902516/mazda_mazda-3_2020_f34cfdcbe8fb7_a.jpeg"
+      },
+      {
+        "id": 12834101,
+        "size": "1200x900",
+        "url": "https://s3.amazonaws.com/stg01maxiaublica/uploads/2024/4/3886/20902516/mazda_mazda-3_2020_576f945ab4476_a.jpeg"
+      },
+      {
+        "id": 12834104,
+        "size": "1200x900",
+        "url": "https://s3.amazonaws.com/stg01maxiaublica/uploads/2024/4/3886/20902516/mazda_mazda-3_2020_3c8d315134b1d_a.jpeg"
+      },
+      {
+        "id": 12834111,
+        "size": "1200x900",
+        "url": "https://s3.amazonaws.com/stg01maxiaublica/uploads/2024/4/3886/20902516/mazda_mazda-3_2020_8aca00fdd19d7_a.jpeg"
+      },
+      {
+        "id": 12834098,
+        "size": "1200x900",
+        "url": "https://s3.amazonaws.com/stg01maxiaublica/uploads/2024/4/3886/20902516/mazda_mazda-3_2020_5759cefb56e75_a.jpeg"
+      },
+      {
+        "id": 12834109,
+        "size": "1200x900",
+        "url": "https://s3.amazonaws.com/stg01maxiaublica/uploads/2024/4/3886/20902516/mazda_mazda-3_2020_ec4b0b360078a_a.jpeg"
+      },
+      {
+        "id": 12834107,
+        "size": "1200x900",
+        "url": "https://s3.amazonaws.com/stg01maxiaublica/uploads/2024/4/3886/20902516/mazda_mazda-3_2020_40a63841e7433_a.jpeg"
+      }
+    ]
+  },
+
+  {
+    "_id": 20901821,
+    "seller": {
+      "groupId": [5],
+      "groupKey": ["9vkZ6wgpvSk6Z3BWjFxG"],
+      "photo": "https://s3.amazonaws.com/images.maxipublica.com/customer/sellers/53d983dd137476712545f04dc6e60498bc4c8bf983/8764832eea008_a.jpeg",
+      "commercialName": "Mgp Dev Autos Xochi",
+      "logo": "https://s3.amazonaws.com/images.maxipublica.com/customer/sellers/777/719d08db43490_a.jpeg",
+      "phone": [
+        {
+          "type": "mobile",
+          "number": "5553508885",
+          "action": "+5215553508885",
+          "format": "Cel. (55) 5350-8885",
+          "extension": "",
+          "nextelId": ""
+        },
+        {
+          "type": "office",
+          "number": "5544242080",
+          "format": "(55) 4424-2080 ext.180",
+          "action": "+525544242080,180",
+          "extension": "180",
+          "nextelId": ""
+        }
+      ]
+    },
+    "location": {
+      "location": {
+        "neighborhood": {
+          "name": "Santa Fe Cuajimalpa",
+          "id": "COL090040792"
+        },
+        "city": {
+          "name": "Cuajimalpa de Morelos",
+          "id": "CTY09004"
+        },
+        "state": {
+          "name": "Distrito Federal",
+          "id": "STS09"
+        },
+        "country": {
+          "name": "México",
+          "id": "MX"
+        }
+      },
+      "geoReference": "19.358146873244483,-99.27859003432643,17z",
+      "zipCode": "05348",
+      "numInt": "302",
+      "numExt": "50",
+      "street": "Juan Salvador Agraz"
+    },
+    "status": "active",
+    "variations": [],
+    "attributes": [
+      {
+        "value": "JAC J7 2023",
+        "id": "title",
+        "label": "Título",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 0
+      },
+      {
+        "value": 850,
+        "id": "odometer",
+        "label": "Odómetro",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 0
+      },
+      {
+        "value": "Km",
+        "id": "odometerUnits",
+        "label": "Unidades",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 1,
+        "valueId": "ODOMETER_UNITS-KM"
+      },
+      {
+        "value": "Original",
+        "id": "odometerStatus",
+        "label": "Estatus",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 2,
+        "valueId": "ODOMETER_STATUS-ORIGINAL"
+      },
+      {
+        "value": 359000,
+        "id": "price",
+        "label": "Precio total al contado",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 0
+      },
+      {
+        "value": "MXN",
+        "id": "currency",
+        "label": "Moneda",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 1,
+        "valueId": "CURRENCIE-MXN"
+      },
+      {
+        "value": "Fijo",
+        "id": "priceType",
+        "label": "Tipo de precio",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 2,
+        "valueId": "PRICETYPE-FIXED"
+      },
+      {
+        "value": null,
+        "id": "previousPrice",
+        "label": "Precio anterior",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 0
+      },
+      {
+        "value": "MXN",
+        "id": "previousCurrency",
+        "label": "Moneda del precio anterior",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 1,
+        "valueId": "CURRENCIE-MXN"
+      },
+      {
+        "value": false,
+        "id": "isPriceOffer",
+        "label": "Es precio de oferta",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 2
+      },
+      {
+        "value": "Sin financiamiento",
+        "id": "finantial",
+        "label": "Financiamiento",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 3,
+        "valueId": "FINANCING-NONE"
+      },
+      {
+        "value": "Automática",
+        "id": "transmission",
+        "label": "Transmisión",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 4,
+        "valueId": "TRANS-AUTOMATICA"
+      },
+      {
+        "value": "Asistida",
+        "id": "direction",
+        "label": "Dirección",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 5,
+        "valueId": "DIRECCION-ASISTIDA"
+      },
+      {
+        "value": "Piel (Cuero)",
+        "id": "vesture",
+        "label": "Vestidura",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 6,
+        "valueId": "VESTURE-PIEL"
+      },
+      {
+        "value": "Gasolina Premium",
+        "id": "energy",
+        "label": "Combustible o energía",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 7,
+        "valueId": "FUEL-GASOLINA_PRE"
+      },
+      {
+        "value": "Sedán",
+        "id": "bodyType",
+        "label": "Segmento",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 8,
+        "valueId": "BODY-SEDAN"
+      },
+      {
+        "value": "Usado",
+        "id": "condition",
+        "label": "Condición",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 9,
+        "valueId": "CONDITION-USED"
+      },
+      {
+        "value": "Blanco",
+        "id": "colorExt",
+        "label": "Color exterior",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 10,
+        "valueId": "COLOREXT-BLANCO"
+      },
+      {
+        "value": "Beige",
+        "id": "colorInt",
+        "label": "Color interior",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 11,
+        "valueId": "COLORINT-BEIGE"
+      },
+      {
+        "value": "Si Automático",
+        "id": "climate",
+        "label": "Aire acondicionado",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 12,
+        "valueId": "CLIMATE-SI_AUTOMATICO"
+      },
+      {
+        "value": "Delantera",
+        "id": "traction",
+        "label": "Tracción",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 13,
+        "valueId": "TRACTION-DELANTERA"
+      },
+      {
+        "value": "No",
+        "id": "armour",
+        "label": "Blindaje",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 14,
+        "valueId": "ARMOUR-NO"
+      },
+      {
+        "value": "LJ12FKT31P4005697",
+        "id": "vin",
+        "label": "Número de identificación vehicular",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 15
+      },
+      {
+        "value": "",
+        "id": "waranty",
+        "label": "Garantía",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 16,
+        "valueId": ""
+      },
+      {
+        "value": "",
+        "id": "descriptionHtml",
+        "label": "Descripción en HTML (Sólo se usará para MercadoLibre)",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 17
+      },
+      {
+        "value": "Novedad",
+        "id": "badge",
+        "label": "Distintivo",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 18,
+        "valueId": "BADGE-NOVEDAD"
+      },
+      {
+        "value": "",
+        "id": "numberPlate",
+        "label": "No. de Placa",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 19
+      },
+      {
+        "value": "",
+        "id": "statePlate",
+        "label": "Entidad federativa de la placa",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 20,
+        "valueId": null
+      },
+      {
+        "value": null,
+        "id": "purchaseDate",
+        "label": "Fecha de compra",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 21
+      },
+      {
+        "value": "",
+        "id": "conditionsReport",
+        "label": "Reporte de condiciones",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 22
+      },
+      {
+        "value": "",
+        "id": "ownersNumber",
+        "label": "Cantidad de dueños",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 23,
+        "valueId": null
+      },
+      {
+        "value": "",
+        "id": "invoicesNumber",
+        "label": "Cantidad de facturas",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 24,
+        "valueId": null
+      },
+      {
+        "value": "",
+        "id": "warranty",
+        "label": "Garantía",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 25,
+        "valueId": null
+      },
+      {
+        "value": "",
+        "id": "source360",
+        "label": "Recurso 360",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 26
+      },
+      {
+        "value": "",
+        "id": "source360UrlVideo",
+        "label": "Url de video 360",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 27
+      },
+      {
+        "value": "",
+        "id": "source360UrlVideoThumbnail",
+        "label": "Url del thumbnail de video 360",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 28
+      },
+      {
+        "value": "",
+        "id": "source360UrlIframe",
+        "label": "Url del iframe 360",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 29
+      },
+      {
+        "value": "",
+        "id": "source360Frames",
+        "label": "Urls de frames",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 30
+      },
+      {
+        "value": null,
+        "id": "source360Degrees",
+        "label": "Cobertura del giro",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 31
+      },
+      {
+        "value": null,
+        "id": "source360NumberOfFrames",
+        "label": "Número de frames",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 32
+      },
+      {
+        "value": "",
+        "id": "descriptionTxt",
+        "label": "Descripción",
+        "type": "attribute",
+        "groupId": "description",
+        "order": 0
+      },
+      {
+        "value": true,
+        "id": "useDescription",
+        "label": "Usar descripción automática",
+        "type": "attribute",
+        "groupId": "description",
+        "order": 1
+      },
+      {
+        "value": "JAC J7 2023 4p Limited L4/1.5/T Aut. \n\nTipo de precio: Fijo\nTransmisión: Automática\nDirección: Asistida\nVestidura: Piel (Cuero)\nCombustible o energía: Gasolina Premium\nSegmento: Sedán\nCondición: Usado\nColor exterior: Blanco\nColor interior: Beige\nCon aire acondicionado automático\nTracción: Delantera\nPuertas: 4\nPasajeros: 5\nCilindros: 4\nVálvulas: 4\nPotencia en HP: 148\nTorque máximo libras/pie: 154\nCapacidad del tanque (l): 55\nDiámetro de rines (pulgadas): 17\nLargo del vehículo (mm): 4772\nAncho del vehículo (mm): 1820\nAlto del vehículo (mm): 1490\nPeso (Kg): 1440\n\nEQUIPAMIENTO:\n\n- Audio: bocinas, controles remotos del equipo de audio, puerto usb.\n\n- Confort: aire acondicionado, altura del volante ajustable, apertura de cajuela y tapa combustible, apertura remota de cajuela, botón de arranque del vehículo, control automático de velocidad, espejo de vanidad, espejos laterales retractiles, sensor de estacionamiento, volante de posiciones.\n\n- Eléctrico: asiento conductor, computadora de viaje, elevadores de cristal.\n\n- Extras: rines de aluminio y/o aleación, techo de cristal.\n\n- Gadgets: bluetooth.\n\n- Seguridad: bolsa de aire conductor, bolsa de aire laterales, bolsas de aire cortina, cinturones de seguridad delanteros, cinturones de seguridad traseros, control de estabilidad, control de tracción, frenos abs, frenos de disco traseros, sensor de lluvia, sensor para cambio de carril.",
+        "id": "descriptionAut",
+        "label": "Descripción",
+        "type": "attribute",
+        "groupId": "description",
+        "order": 2
+      },
+      {
+        "value": "",
+        "id": "descriptionFooter",
+        "label": "Descripción",
+        "type": "attribute",
+        "groupId": "description",
+        "order": 3
+      },
+      {
+        "value": "00",
+        "id": "hologram",
+        "label": "Holograma ambiental",
+        "type": "attribute",
+        "groupId": "advanced",
+        "order": 0,
+        "valueId": "HOLOLGRAM-00"
+      },
+      {
+        "value": "4",
+        "id": "doors",
+        "label": "Puertas",
+        "type": "attribute",
+        "groupId": "advanced",
+        "order": 1,
+        "valueId": "DOORS-4"
+      },
+      {
+        "value": "5",
+        "id": "passengers",
+        "label": "Pasajeros",
+        "type": "attribute",
+        "groupId": "advanced",
+        "order": 2,
+        "valueId": "PASSENGERS-5"
+      },
+      {
+        "value": "",
+        "id": "speeds",
+        "label": "Velocidades",
+        "type": "attribute",
+        "groupId": "advanced",
+        "order": 3,
+        "valueId": ""
+      },
+      {
+        "value": "4",
+        "id": "cylinders",
+        "label": "Cilindros",
+        "type": "attribute",
+        "groupId": "advanced",
+        "order": 4,
+        "valueId": "CYLINDERS-4"
+      },
+      {
+        "value": "4",
+        "id": "valves",
+        "label": "Válvulas",
+        "type": "attribute",
+        "groupId": "advanced",
+        "order": 5,
+        "valueId": "VALVES-4"
+      },
+      {
+        "value": null,
+        "id": "displacement",
+        "label": "Cilindrada",
+        "type": "attribute",
+        "groupId": "advanced",
+        "order": 6
+      },
+      {
+        "value": 148,
+        "id": "power",
+        "label": "Potencia en HP",
+        "type": "attribute",
+        "groupId": "advanced",
+        "order": 7
+      },
+      {
+        "value": 154,
+        "id": "torque",
+        "label": "Torque máximo libras/pie",
+        "type": "attribute",
+        "groupId": "advanced",
+        "order": 8
+      },
+      {
+        "value": 55,
+        "id": "tankCapacity",
+        "label": "Capacidad del tanque (l)",
+        "type": "attribute",
+        "groupId": "advanced",
+        "order": 9
+      },
+      {
+        "value": null,
+        "id": "consumptionCity",
+        "label": "Consumo en ciudad (Km/l)",
+        "type": "attribute",
+        "groupId": "advanced",
+        "order": 10
+      },
+      {
+        "value": null,
+        "id": "consumptionRoad",
+        "label": "Consumo en carretera (Km/l)",
+        "type": "attribute",
+        "groupId": "advanced",
+        "order": 11
+      },
+      {
+        "value": null,
+        "id": "consumptionCombined",
+        "label": "Consumo en combinado (Km/l)",
+        "type": "attribute",
+        "groupId": "advanced",
+        "order": 12
+      },
+      {
+        "value": 17,
+        "id": "diameterWheels",
+        "label": "Diámetro de rines (pulgadas)",
+        "type": "attribute",
+        "groupId": "advanced",
+        "order": 13
+      },
+      {
+        "value": 4772,
+        "id": "dimensionsLength",
+        "label": "Largo del vehículo (mm)",
+        "type": "attribute",
+        "groupId": "advanced",
+        "order": 14
+      },
+      {
+        "value": 1820,
+        "id": "dimensionsWidth",
+        "label": "Ancho del vehículo (mm)",
+        "type": "attribute",
+        "groupId": "advanced",
+        "order": 15
+      },
+      {
+        "value": 1490,
+        "id": "dimensionsHeight",
+        "label": "Alto del vehículo (mm)",
+        "type": "attribute",
+        "groupId": "advanced",
+        "order": 16
+      },
+      {
+        "value": 1440,
+        "id": "dimensionsWeight",
+        "label": "Peso (Kg)",
+        "type": "attribute",
+        "groupId": "advanced",
+        "order": 17
+      },
+      {
+        "value": "Jalisco-Mazda Galerias",
+        "id": "stock",
+        "label": "Número de inventario",
+        "type": "attribute",
+        "groupId": "business",
+        "order": 0
+      },
+      {
+        "value": null,
+        "id": "purchasePrice",
+        "label": "Precio de compra",
+        "type": "attribute",
+        "groupId": "business",
+        "order": 1
+      },
+      {
+        "value": "JAC",
+        "id": "brand",
+        "label": "Marca",
+        "type": "category",
+        "groupId": "catalog",
+        "order": 0,
+        "valueId": "v_1_26"
+      },
+      {
+        "value": "J7",
+        "id": "model",
+        "label": "Modelo",
+        "type": "category",
+        "groupId": "catalog",
+        "order": 1,
+        "valueId": "v_1_26_12"
+      },
+      {
+        "value": "2023",
+        "id": "year",
+        "label": "Año",
+        "type": "category",
+        "groupId": "catalog",
+        "order": 2,
+        "valueId": "v_1_26_12_3"
+      },
+      {
+        "value": "4p Limited L4/1.5/T Aut",
+        "id": "trim",
+        "label": "Versión",
+        "type": "category",
+        "groupId": "catalog",
+        "order": 3,
+        "valueId": "v_1_26_12_3_3"
+      },
+      {
+        "value": false,
+        "id": "antenna",
+        "label": "Antena",
+        "type": "equipment",
+        "groupId": "audio",
+        "order": 0
+      },
+      {
+        "value": false,
+        "id": "wirelessHeadphones",
+        "label": "Audífonos inalámbricos",
+        "type": "equipment",
+        "groupId": "audio",
+        "order": 1
+      },
+      {
+        "value": true,
+        "id": "speakers",
+        "label": "Bocinas",
+        "type": "equipment",
+        "groupId": "audio",
+        "order": 2
+      },
+      {
+        "value": false,
+        "id": "boxDisk",
+        "label": "Caja de discos",
+        "type": "equipment",
+        "groupId": "audio",
+        "order": 3
+      },
+      {
+        "value": true,
+        "id": "remoteControlAudio",
+        "label": "Controles remotos del equipo de audio",
+        "type": "equipment",
+        "groupId": "audio",
+        "order": 4
+      },
+      {
+        "value": false,
+        "id": "auxiliaryInput",
+        "label": "Entrada auxiliar",
+        "type": "equipment",
+        "groupId": "audio",
+        "order": 5
+      },
+      {
+        "value": false,
+        "id": "ipodPort",
+        "label": "Interface para iPod",
+        "type": "equipment",
+        "groupId": "audio",
+        "order": 6
+      },
+      {
+        "value": false,
+        "id": "screenEntertainment",
+        "label": "Pantalla entretenimiento",
+        "type": "equipment",
+        "groupId": "audio",
+        "order": 7
+      },
+      {
+        "value": true,
+        "id": "usbPort",
+        "label": "Puerto USB",
+        "type": "equipment",
+        "groupId": "audio",
+        "order": 8
+      },
+      {
+        "value": false,
+        "id": "satelitalRadio",
+        "label": "Radio satelital",
+        "type": "equipment",
+        "groupId": "audio",
+        "order": 9
+      },
+      {
+        "value": false,
+        "id": "cdPlayer",
+        "label": "Reproductor CD/MP3",
+        "type": "equipment",
+        "groupId": "audio",
+        "order": 10
+      },
+      {
+        "value": true,
+        "id": "airConditioning",
+        "label": "Aire acondicionado",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 0
+      },
+      {
+        "value": false,
+        "id": "airConditioningDoubleZone",
+        "label": "Aire acondicionado doble zona",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 1
+      },
+      {
+        "value": false,
+        "id": "adjustmentElectricWheel",
+        "label": "Ajuste del volante eléctrico",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 2
+      },
+      {
+        "value": false,
+        "id": "lumbarAdjustment",
+        "label": "Ajuste lumbar",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 3
+      },
+      {
+        "value": false,
+        "id": "aleron",
+        "label": "Alerón",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 4
+      },
+      {
+        "value": true,
+        "id": "heightWheel",
+        "label": "Altura del volante ajustable",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 5
+      },
+      {
+        "value": true,
+        "id": "openTrunkFuel",
+        "label": "Apertura de cajuela y tapa combustible",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 6
+      },
+      {
+        "value": true,
+        "id": "remoteTrunk",
+        "label": "Apertura remota de cajuela",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 7
+      },
+      {
+        "value": false,
+        "id": "remoteGarage",
+        "label": "Apertura remota de garage",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 8
+      },
+      {
+        "value": false,
+        "id": "foldingRearSeat",
+        "label": "Asientos traseros abatibles",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 9
+      },
+      {
+        "value": true,
+        "id": "startButton",
+        "label": "Botón de arranque del vehículo",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 10
+      },
+      {
+        "value": false,
+        "id": "heatedSeats",
+        "label": "Calefacción en asientos",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 11
+      },
+      {
+        "value": false,
+        "id": "luggageRack",
+        "label": "Canastilla portaequipaje",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 12
+      },
+      {
+        "value": false,
+        "id": "carEntertaiment",
+        "label": "Centro de entretenimiento con DVD",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 13
+      },
+      {
+        "value": false,
+        "id": "automaticDoor",
+        "label": "Cierre automático de puertas",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 14
+      },
+      {
+        "value": true,
+        "id": "cruiseControl",
+        "label": "Control automático de velocidad",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 15
+      },
+      {
+        "value": false,
+        "id": "automaticAir",
+        "label": "Control de temperatura automática",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 16
+      },
+      {
+        "value": false,
+        "id": "rearDefroster",
+        "label": "Desempañador trasero",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 17
+      },
+      {
+        "value": true,
+        "id": "vanityMirror",
+        "label": "Espejo de vanidad",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 18
+      },
+      {
+        "value": true,
+        "id": "doorMirriors",
+        "label": "Espejos laterales retractiles",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 19
+      },
+      {
+        "value": false,
+        "id": "rearWiper",
+        "label": "Limpiador trasero",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 20
+      },
+      {
+        "value": false,
+        "id": "memorySeats",
+        "label": "Memoria en asientos",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 21
+      },
+      {
+        "value": false,
+        "id": "adjustablePedals",
+        "label": "Pedales ajustables",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 22
+      },
+      {
+        "value": false,
+        "id": "depthWheel",
+        "label": "Profundidad del volante ajustable",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 23
+      },
+      {
+        "value": false,
+        "id": "dvdPlayer",
+        "label": "Reproductor de DVD",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 24
+      },
+      {
+        "value": false,
+        "id": "keylessEntry",
+        "label": "Sensor de apertura",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 25
+      },
+      {
+        "value": true,
+        "id": "parkingSensor",
+        "label": "Sensor de estacionamiento",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 26
+      },
+      {
+        "value": false,
+        "id": "systemVoice",
+        "label": "Sistema de control por voz para funciones",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 27
+      },
+      {
+        "value": false,
+        "id": "thirdRowSeats",
+        "label": "Tercera fila de asientos",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 28
+      },
+      {
+        "value": false,
+        "id": "carThermometer",
+        "label": "Termómetro ambiental",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 29
+      },
+      {
+        "value": false,
+        "id": "tintedWindows",
+        "label": "Vidrios entintados",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 30
+      },
+      {
+        "value": true,
+        "id": "wheelPositions",
+        "label": "Volante de posiciones",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 31
+      },
+      {
+        "value": false,
+        "id": "wheelControls",
+        "label": "Volante multifunciones",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 32
+      },
+      {
+        "value": false,
+        "id": "leatherWheel",
+        "label": "Volante revestido en piel",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 33
+      },
+      {
+        "value": false,
+        "id": "certificated",
+        "label": "Certificado",
+        "type": "equipment",
+        "groupId": "documents",
+        "order": 0
+      },
+      {
+        "value": false,
+        "id": "taxItemized",
+        "label": "Factura IVA desglosado",
+        "type": "equipment",
+        "groupId": "documents",
+        "order": 1
+      },
+      {
+        "value": false,
+        "id": "originalInvoice",
+        "label": "Factura original",
+        "type": "equipment",
+        "groupId": "documents",
+        "order": 2
+      },
+      {
+        "value": false,
+        "id": "possibleChange",
+        "label": "Acepto vehículos a cuenta",
+        "type": "equipment",
+        "groupId": "documents",
+        "order": 3
+      },
+      {
+        "value": false,
+        "id": "firtsCarOwner",
+        "label": "Primer propietario",
+        "type": "equipment",
+        "groupId": "documents",
+        "order": 4
+      },
+      {
+        "value": false,
+        "id": "agencyInvoice",
+        "label": "Refacturado por agencia",
+        "type": "equipment",
+        "groupId": "documents",
+        "order": 5
+      },
+      {
+        "value": false,
+        "id": "insuranceBill",
+        "label": "Refacturado por aseguradora",
+        "type": "equipment",
+        "groupId": "documents",
+        "order": 6
+      },
+      {
+        "value": false,
+        "id": "companyInvoice",
+        "label": "Refacturado por empresa",
+        "type": "equipment",
+        "groupId": "documents",
+        "order": 7
+      },
+      {
+        "value": false,
+        "id": "leaseholdFinancing",
+        "label": "Se traspasa financiamiento",
+        "type": "equipment",
+        "groupId": "documents",
+        "order": 8
+      },
+      {
+        "value": false,
+        "id": "currentInsurance",
+        "label": "Seguro vigente",
+        "type": "equipment",
+        "groupId": "documents",
+        "order": 9
+      },
+      {
+        "value": false,
+        "id": "workShopServices",
+        "label": "Servicios de agencia",
+        "type": "equipment",
+        "groupId": "documents",
+        "order": 10
+      },
+      {
+        "value": false,
+        "id": "carDocument",
+        "label": "Tenencias pagadas",
+        "type": "equipment",
+        "groupId": "documents",
+        "order": 11
+      },
+      {
+        "value": false,
+        "id": "demoVehicle",
+        "label": "Vehículo Demo",
+        "type": "equipment",
+        "groupId": "documents",
+        "order": 12
+      },
+      {
+        "value": false,
+        "id": "garantyPlant",
+        "label": "Auto con garantía de planta",
+        "type": "equipment",
+        "groupId": "documents",
+        "order": 13
+      },
+      {
+        "value": false,
+        "id": "environVerification",
+        "label": "Verificación ambiental vigente",
+        "type": "equipment",
+        "groupId": "documents",
+        "order": 14
+      },
+      {
+        "value": false,
+        "id": "mechanicalWarranty",
+        "label": "Con garantía mecánica",
+        "type": "equipment",
+        "groupId": "documents",
+        "order": 15
+      },
+      {
+        "value": false,
+        "id": "carRecovered",
+        "label": "Auto recuperado",
+        "type": "equipment",
+        "groupId": "documents",
+        "order": 16
+      },
+      {
+        "value": false,
+        "id": "offCylinder",
+        "label": "Apagado de cilindros",
+        "type": "equipment",
+        "groupId": "electric",
+        "order": 0
+      },
+      {
+        "value": true,
+        "id": "powerSeats",
+        "label": "Asiento conductor",
+        "type": "equipment",
+        "groupId": "electric",
+        "order": 1
+      },
+      {
+        "value": false,
+        "id": "centralLock",
+        "label": "Cierre centralizado",
+        "type": "equipment",
+        "groupId": "electric",
+        "order": 2
+      },
+      {
+        "value": false,
+        "id": "powerTrunkClosing",
+        "label": "Cierre eléctrico de cajuela",
+        "type": "equipment",
+        "groupId": "electric",
+        "order": 3
+      },
+      {
+        "value": true,
+        "id": "computer",
+        "label": "Computadora de viaje",
+        "type": "equipment",
+        "groupId": "electric",
+        "order": 4
+      },
+      {
+        "value": true,
+        "id": "powerWindows",
+        "label": "Elevadores de cristal",
+        "type": "equipment",
+        "groupId": "electric",
+        "order": 5
+      },
+      {
+        "value": false,
+        "id": "lighter",
+        "label": "Encendedor",
+        "type": "equipment",
+        "groupId": "electric",
+        "order": 6
+      },
+      {
+        "value": false,
+        "id": "remoteIgnition",
+        "label": "Encendido Remoto",
+        "type": "equipment",
+        "groupId": "electric",
+        "order": 7
+      },
+      {
+        "value": false,
+        "id": "powerMirrors",
+        "label": "Espejos laterales",
+        "type": "equipment",
+        "groupId": "electric",
+        "order": 8
+      },
+      {
+        "value": false,
+        "id": "immobilizer",
+        "label": "Inmovilizador",
+        "type": "equipment",
+        "groupId": "electric",
+        "order": 9
+      },
+      {
+        "value": false,
+        "id": "powerDoorLocks",
+        "label": "Seguros",
+        "type": "equipment",
+        "groupId": "electric",
+        "order": 10
+      },
+      {
+        "value": false,
+        "id": "boardProjected",
+        "label": "Tablero proyectado en el parabrisas",
+        "type": "equipment",
+        "groupId": "electric",
+        "order": 11
+      },
+      {
+        "value": false,
+        "id": "tachometer",
+        "label": "Tacómetro",
+        "type": "equipment",
+        "groupId": "electric",
+        "order": 12
+      },
+      {
+        "value": false,
+        "id": "bedLiner",
+        "label": "Alberca/Tina (camioneta)",
+        "type": "equipment",
+        "groupId": "extra",
+        "order": 0
+      },
+      {
+        "value": false,
+        "id": "towingPackage",
+        "label": "Paquete de arrastre",
+        "type": "equipment",
+        "groupId": "extra",
+        "order": 1
+      },
+      {
+        "value": false,
+        "id": "sunroof",
+        "label": "Quemacocos",
+        "type": "equipment",
+        "groupId": "extra",
+        "order": 2
+      },
+      {
+        "value": true,
+        "id": "alloyWheels",
+        "label": "Rines de aluminio y/o aleación",
+        "type": "equipment",
+        "groupId": "extra",
+        "order": 3
+      },
+      {
+        "value": false,
+        "id": "spoilers",
+        "label": "Spoilers",
+        "type": "equipment",
+        "groupId": "extra",
+        "order": 4
+      },
+      {
+        "value": true,
+        "id": "glassRoof",
+        "label": "Techo de cristal",
+        "type": "equipment",
+        "groupId": "extra",
+        "order": 5
+      },
+      {
+        "value": true,
+        "id": "bluetooth",
+        "label": "Bluetooth",
+        "type": "equipment",
+        "groupId": "gadgets",
+        "order": 0
+      },
+      {
+        "value": false,
+        "id": "gpsLocator",
+        "label": "Localizador satelital",
+        "type": "equipment",
+        "groupId": "gadgets",
+        "order": 1
+      },
+      {
+        "value": false,
+        "id": "navigationSystem",
+        "label": "Sistema de navegación GPS",
+        "type": "equipment",
+        "groupId": "gadgets",
+        "order": 2
+      },
+      {
+        "value": false,
+        "id": "alarm",
+        "label": "Alarma",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 0
+      },
+      {
+        "value": false,
+        "id": "childSeatAnchor",
+        "label": "Anclaje para asientos infantiles",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 1
+      },
+      {
+        "value": false,
+        "id": "airBagPassenger",
+        "label": "Bolsa de aire acompañante",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 2
+      },
+      {
+        "value": true,
+        "id": "airBag",
+        "label": "Bolsa de aire conductor",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 3
+      },
+      {
+        "value": true,
+        "id": "sideAirBags",
+        "label": "Bolsa de aire laterales",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 4
+      },
+      {
+        "value": true,
+        "id": "airBagCourtain",
+        "label": "Bolsas de aire cortina",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 5
+      },
+      {
+        "value": false,
+        "id": "kneeAirbags",
+        "label": "Bolsas de aire para rodillas",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 6
+      },
+      {
+        "value": false,
+        "id": "backSeatAirBag",
+        "label": "Bolsas de aire traseras",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 7
+      },
+      {
+        "value": false,
+        "id": "parkingCamera",
+        "label": "Cámara de estacionamiento",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 8
+      },
+      {
+        "value": true,
+        "id": "frontSeatBelts",
+        "label": "Cinturones de seguridad delanteros",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 9
+      },
+      {
+        "value": false,
+        "id": "3rdSeatBelts",
+        "label": "Cinturones de seguridad tercera fila",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 10
+      },
+      {
+        "value": true,
+        "id": "backSeatBelts",
+        "label": "Cinturones de seguridad traseros",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 11
+      },
+      {
+        "value": true,
+        "id": "stabilitySystem",
+        "label": "Control de estabilidad",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 12
+      },
+      {
+        "value": true,
+        "id": "tractionControl",
+        "label": "Control de tracción",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 13
+      },
+      {
+        "value": false,
+        "id": "rearDefrost",
+        "label": "Desempañador en espejos laterales",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 14
+      },
+      {
+        "value": false,
+        "id": "daytimeLights",
+        "label": "Encendido diurno automático",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 15
+      },
+      {
+        "value": false,
+        "id": "dimmingMirrior",
+        "label": "Espejo retrovisor antideslumbrante",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 16
+      },
+      {
+        "value": false,
+        "id": "fogLamps",
+        "label": "Faros de niebla",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 17
+      },
+      {
+        "value": false,
+        "id": "fogLightsRear",
+        "label": "Faros de niebla traseros",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 18
+      },
+      {
+        "value": false,
+        "id": "adjustableLights",
+        "label": "Faros regulables de altura",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 19
+      },
+      {
+        "value": true,
+        "id": "abs",
+        "label": "Frenos ABS",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 20
+      },
+      {
+        "value": true,
+        "id": "discBrakes",
+        "label": "Frenos de disco traseros",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 21
+      },
+      {
+        "value": false,
+        "id": "xenonLights",
+        "label": "Luces de Xenon",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 22
+      },
+      {
+        "value": false,
+        "id": "glassSecurity",
+        "label": "Película anti-asalto",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 23
+      },
+      {
+        "value": false,
+        "id": "rollbar",
+        "label": "Rollbar",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 24
+      },
+      {
+        "value": true,
+        "id": "rainSensor",
+        "label": "Sensor de lluvia",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 25
+      },
+      {
+        "value": true,
+        "id": "sensorLaneChange",
+        "label": "Sensor para cambio de carril",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 26
+      },
+      {
+        "value": false,
+        "id": "brakeAssist",
+        "label": "Sistema de asistencia de frenado",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 27
+      },
+      {
+        "value": false,
+        "id": "tattooSerial",
+        "label": "Tatuaje de número de serie",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 28
+      }
+    ],
+    "thumbnail": "https://s3.amazonaws.com/stg01maxiaublica/uploads/2024/4/3886/20901819/jac_j7_2023_27f078077cfad_d.jpeg",
+    "descriptionId": 20901821,
+    "sellerId": 777,
+    "categoryId": "v_1_26_12_3_3",
+    "title": "JAC J7 2023",
+    "price": 359000,
+    "currency": "MXN",
+    "condition": "Usado",
+    "countryId": "MX",
+    "images": [
+      {
+        "id": 12826952,
+        "size": "1200x900",
+        "url": "https://s3.amazonaws.com/stg01maxiaublica/uploads/2024/5/777/20901821/jac_j7_2023_613059994_a.jpeg"
+      },
+      {
+        "id": 12826926,
+        "size": "1200x900",
+        "url": "https://s3.amazonaws.com/stg01maxiaublica/uploads/2024/4/777/20901821/jac_j7_2023_111597406_a.jpeg"
+      },
+      {
+        "id": 12826944,
+        "size": "1200x900",
+        "url": "https://s3.amazonaws.com/stg01maxiaublica/uploads/2024/4/3886/20901819/jac_j7_2023_8a96c9027b7d5_a.jpeg"
+      },
+      {
+        "id": 12826927,
+        "size": "1200x900",
+        "url": "https://s3.amazonaws.com/stg01maxiaublica/uploads/2024/4/3886/20901819/jac_j7_2023_3bf6a0715621b_a.jpeg"
+      },
+      {
+        "id": 12826953,
+        "size": "1200x900",
+        "url": "https://s3.amazonaws.com/stg01maxiaublica/uploads/2024/4/3886/20901819/jac_j7_2023_07a0f27799b08_a.jpeg"
+      },
+      {
+        "id": 12826928,
+        "size": "1200x900",
+        "url": "https://s3.amazonaws.com/stg01maxiaublica/uploads/2024/4/3886/20901819/jac_j7_2023_4e2aac92a87a3_a.jpeg"
+      },
+      {
+        "id": 12826932,
+        "size": "1200x900",
+        "url": "https://s3.amazonaws.com/stg01maxiaublica/uploads/2024/4/3886/20901819/jac_j7_2023_14130c0e74974_a.jpeg"
+      },
+      {
+        "id": 12826943,
+        "size": "1200x900",
+        "url": "https://s3.amazonaws.com/stg01maxiaublica/uploads/2024/4/3886/20901819/jac_j7_2023_6891fa3c68ee3_a.jpeg"
+      },
+      {
+        "id": 12826947,
+        "size": "1200x900",
+        "url": "https://s3.amazonaws.com/stg01maxiaublica/uploads/2024/4/3886/20901819/jac_j7_2023_43525f51a3b35_a.jpeg"
+      },
+      {
+        "id": 12826948,
+        "size": "1200x900",
+        "url": "https://s3.amazonaws.com/stg01maxiaublica/uploads/2024/4/3886/20901819/jac_j7_2023_c7ff2942f25f9_a.jpeg"
+      },
+      {
+        "id": 12826945,
+        "size": "1200x900",
+        "url": "https://s3.amazonaws.com/stg01maxiaublica/uploads/2024/4/3886/20901819/jac_j7_2023_9cca1b40042e9_a.jpeg"
+      },
+      {
+        "id": 12826941,
+        "size": "1200x900",
+        "url": "https://s3.amazonaws.com/stg01maxiaublica/uploads/2024/4/3886/20901819/jac_j7_2023_bcf56289314b9_a.jpeg"
+      },
+      {
+        "id": 12826924,
+        "size": "1200x900",
+        "url": "https://s3.amazonaws.com/stg01maxiaublica/uploads/2024/4/3886/20901819/jac_j7_2023_9da3e72da832c_a.jpeg"
+      },
+      {
+        "id": 12826922,
+        "size": "1200x900",
+        "url": "https://s3.amazonaws.com/stg01maxiaublica/uploads/2024/4/3886/20901819/jac_j7_2023_18df9ae8c804c_a.jpeg"
+      },
+      {
+        "id": 12826933,
+        "size": "1200x900",
+        "url": "https://s3.amazonaws.com/stg01maxiaublica/uploads/2024/4/3886/20901819/jac_j7_2023_6c208adad3661_a.jpeg"
+      },
+      {
+        "id": 12826950,
+        "size": "1200x900",
+        "url": "https://s3.amazonaws.com/stg01maxiaublica/uploads/2024/4/3886/20901819/jac_j7_2023_ba31bb67c80b8_a.jpeg"
+      },
+      {
+        "id": 12826946,
+        "size": "1200x900",
+        "url": "https://s3.amazonaws.com/stg01maxiaublica/uploads/2024/4/3886/20901819/jac_j7_2023_56e5937ee20b1_a.jpeg"
+      },
+      {
+        "id": 12826951,
+        "size": "1200x900",
+        "url": "https://s3.amazonaws.com/stg01maxiaublica/uploads/2024/4/3886/20901819/jac_j7_2023_95c7067e83db5_a.jpeg"
+      },
+      {
+        "id": 12826923,
+        "size": "1200x900",
+        "url": "https://s3.amazonaws.com/stg01maxiaublica/uploads/2024/4/3886/20901819/jac_j7_2023_edf6d5273d653_a.jpeg"
+      },
+      {
+        "id": 12826921,
+        "size": "1200x900",
+        "url": "https://s3.amazonaws.com/stg01maxiaublica/uploads/2024/4/3886/20901819/jac_j7_2023_a58e20425ac2f_a.jpeg"
+      },
+      {
+        "id": 12826931,
+        "size": "1200x900",
+        "url": "https://s3.amazonaws.com/stg01maxiaublica/uploads/2024/4/3886/20901819/jac_j7_2023_c2dd274e87daa_a.jpeg"
+      },
+      {
+        "id": 12826942,
+        "size": "1200x900",
+        "url": "https://s3.amazonaws.com/stg01maxiaublica/uploads/2024/4/3886/20901819/jac_j7_2023_f2d4a7be00dac_a.jpeg"
+      },
+      {
+        "id": 12826929,
+        "size": "1200x900",
+        "url": "https://s3.amazonaws.com/stg01maxiaublica/uploads/2024/4/3886/20901819/jac_j7_2023_c087f05025116_a.jpeg"
+      },
+      {
+        "id": 12826954,
+        "size": "1200x900",
+        "url": "https://s3.amazonaws.com/stg01maxiaublica/uploads/2024/4/3886/20901819/jac_j7_2023_63a8e08df3ba5_a.jpeg"
+      },
+      {
+        "id": 12826930,
+        "size": "1200x900",
+        "url": "https://s3.amazonaws.com/stg01maxiaublica/uploads/2024/4/3886/20901819/jac_j7_2023_56e4351d924f1_a.jpeg"
+      },
+      {
+        "id": 12826925,
+        "size": "1200x900",
+        "url": "https://s3.amazonaws.com/stg01maxiaublica/uploads/2024/4/3886/20901819/jac_j7_2023_24577a1fa7ae6_a.jpeg"
+      },
+      {
+        "id": 12826949,
+        "size": "1200x900",
+        "url": "https://s3.amazonaws.com/stg01maxiaublica/uploads/2024/4/3886/20901819/jac_j7_2023_aaae15411a37e_a.jpeg"
+      },
+      {
+        "id": 12826934,
+        "size": "1200x900",
+        "url": "https://s3.amazonaws.com/stg01maxiaublica/uploads/2024/4/3886/20901819/jac_j7_2023_1c6664ad419c9_a.jpeg"
+      }
+    ]
+  },
+
+  {
+    "_id": 1686009875347,
+    "seller": {
+      "phone": [
+        {
+          "type": "mobile",
+          "number": "5553508885",
+          "action": "+5215553508885",
+          "format": "Cel. (55) 5350-8885",
+          "extension": "",
+          "nextelId": ""
+        },
+        {
+          "type": "office",
+          "number": "5544242080",
+          "format": "(55) 4424-2080 ext.180",
+          "action": "+525544242080,180",
+          "extension": "180",
+          "nextelId": ""
+        }
+      ],
+      "groupId": [5],
+      "groupKey": ["9vkZ6wgpvSk6Z3BWjFxG"],
+      "commercialName": "Mgp Dev Autos Xochi",
+      "logo": "https://s3.amazonaws.com/images.maxipublica.com/customer/sellers/777/719d08db43490_a.jpeg",
+      "photo": "https://s3.amazonaws.com/images.maxipublica.com/customer/sellers/53d983dd137476712545f04dc6e60498bc4c8bf983/8764832eea008_a.jpeg"
+    },
+    "location": {
+      "location": {
+        "neighborhood": {
+          "name": "Santa Fe Cuajimalpa",
+          "id": "COL090040792"
+        },
+        "city": {
+          "name": "Cuajimalpa de Morelos",
+          "id": "CTY09004"
+        },
+        "state": {
+          "name": "Distrito Federal",
+          "id": "STS09"
+        },
+        "country": {
+          "name": "México",
+          "id": "MX"
+        }
+      },
+      "geoReference": "19.358146873244483,-99.27859003432643,17z",
+      "zipCode": "05348",
+      "numInt": "302",
+      "numExt": "50",
+      "street": "Juan Salvador Agraz"
+    },
+    "status": "active",
+    "variations": [],
+    "attributes": [
+      {
+        "value": "Chevrolet Aveo 2020",
+        "id": "title",
+        "label": "Título",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 0
+      },
+      {
+        "value": 70000,
+        "id": "odometer",
+        "label": "Odómetro",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 0
+      },
+      {
+        "value": "Km",
+        "id": "odometerUnits",
+        "label": "Unidades",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 1,
+        "valueId": "ODOMETER_UNITS-KM"
+      },
+      {
+        "value": "Original",
+        "id": "odometerStatus",
+        "label": "Estatus",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 2,
+        "valueId": "ODOMETER_STATUS-ORIGINAL"
+      },
+      {
+        "value": 200000,
+        "id": "price",
+        "label": "Precio total al contado",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 0
+      },
+      {
+        "value": "MXN",
+        "id": "currency",
+        "label": "Moneda",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 1,
+        "valueId": "CURRENCIE-MXN"
+      },
+      {
+        "value": "Negociable",
+        "id": "priceType",
+        "label": "Tipo de precio",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 2,
+        "valueId": "PRICETYPE-NEGOTIABLE"
+      },
+      {
+        "value": null,
+        "id": "previousPrice",
+        "label": "Precio anterior",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 0
+      },
+      {
+        "value": "MXN",
+        "id": "previousCurrency",
+        "label": "Moneda del precio anterior",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 1,
+        "valueId": "CURRENCIE-MXN"
+      },
+      {
+        "value": false,
+        "id": "isPriceOffer",
+        "label": "Es precio de oferta",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 2
+      },
+      {
+        "value": "Sin financiamiento",
+        "id": "finantial",
+        "label": "Financiamiento",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 3,
+        "valueId": "FINANCING-NONE"
+      },
+      {
+        "value": "Automática",
+        "id": "transmission",
+        "label": "Transmisión",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 4,
+        "valueId": "TRANS-AUTOMATICA"
+      },
+      {
+        "value": "Asistida",
+        "id": "direction",
+        "label": "Dirección",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 5,
+        "valueId": "DIRECCION-ASISTIDA"
+      },
+      {
+        "value": "Tela",
+        "id": "vesture",
+        "label": "Vestidura",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 6,
+        "valueId": "VESTURE-TELA"
+      },
+      {
+        "value": "Gasolina",
+        "id": "energy",
+        "label": "Combustible o energía",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 7,
+        "valueId": "FUEL-GASOLINA"
+      },
+      {
+        "value": "Sedán",
+        "id": "bodyType",
+        "label": "Segmento",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 8,
+        "valueId": "BODY-SEDAN"
+      },
+      {
+        "value": "Usado",
+        "id": "condition",
+        "label": "Condición",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 9,
+        "valueId": "CONDITION-USED"
+      },
+      {
+        "value": "Amarillo",
+        "id": "colorExt",
+        "label": "Color exterior",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 10,
+        "valueId": "COLOREXT-AMARILLO"
+      },
+      {
+        "value": "Gris",
+        "id": "colorInt",
+        "label": "Color interior",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 11,
+        "valueId": "COLORINT-GRIS"
+      },
+      {
+        "value": "Otro",
+        "id": "climate",
+        "label": "Aire acondicionado",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 12,
+        "valueId": "CLIMATE-OTRO"
+      },
+      {
+        "value": "Delantera",
+        "id": "traction",
+        "label": "Tracción",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 13,
+        "valueId": "TRACTION-DELANTERA"
+      },
+      {
+        "value": "No",
+        "id": "armour",
+        "label": "Blindaje",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 14,
+        "valueId": "ARMOUR-NO"
+      },
+      {
+        "value": "9FBHS2AA4GM570296",
+        "id": "vin",
+        "label": "Número de identificación vehicular",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 15
+      },
+      {
+        "value": "",
+        "id": "waranty",
+        "label": "Garantía",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 16,
+        "valueId": ""
+      },
+      {
+        "value": "",
+        "id": "descriptionHtml",
+        "label": "Descripción en HTML (Sólo se usará para MercadoLibre)",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 17
+      },
+      {
+        "value": "",
+        "id": "badge",
+        "label": "Distintivo",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 18,
+        "valueId": null
+      },
+      {
+        "value": "",
+        "id": "numberPlate",
+        "label": "No. de Placa",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 19
+      },
+      {
+        "value": "",
+        "id": "statePlate",
+        "label": "Entidad federativa de la placa",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 20,
+        "valueId": null
+      },
+      {
+        "value": null,
+        "id": "purchaseDate",
+        "label": "Fecha de compra",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 21
+      },
+      {
+        "value": "",
+        "id": "conditionsReport",
+        "label": "Reporte de condiciones",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 22
+      },
+      {
+        "value": "",
+        "id": "ownersNumber",
+        "label": "Cantidad de dueños",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 23,
+        "valueId": null
+      },
+      {
+        "value": "",
+        "id": "invoicesNumber",
+        "label": "Cantidad de facturas",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 24,
+        "valueId": null
+      },
+      {
+        "value": "",
+        "id": "warranty",
+        "label": "Garantía",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 25,
+        "valueId": null
+      },
+      {
+        "value": "",
+        "id": "source360",
+        "label": "Recurso 360",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 26
+      },
+      {
+        "value": "",
+        "id": "source360UrlVideo",
+        "label": "Url de video 360",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 27
+      },
+      {
+        "value": "",
+        "id": "source360UrlVideoThumbnail",
+        "label": "Url del thumbnail de video 360",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 28
+      },
+      {
+        "value": "",
+        "id": "source360UrlIframe",
+        "label": "Url del iframe 360",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 29
+      },
+      {
+        "value": "",
+        "id": "source360Frames",
+        "label": "Urls de frames",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 30
+      },
+      {
+        "value": null,
+        "id": "source360Degrees",
+        "label": "Cobertura del giro",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 31
+      },
+      {
+        "value": null,
+        "id": "source360NumberOfFrames",
+        "label": "Número de frames",
+        "type": "attribute",
+        "groupId": "basic",
+        "order": 32
+      },
+      {
+        "value": "",
+        "id": "descriptionTxt",
+        "label": "Descripción",
+        "type": "attribute",
+        "groupId": "description",
+        "order": 0
+      },
+      {
+        "value": true,
+        "id": "useDescription",
+        "label": "Usar descripción automática",
+        "type": "attribute",
+        "groupId": "description",
+        "order": 1
+      },
+      {
+        "value": "Chevrolet Aveo 2020 4 pts. AT C. \n\nTipo de precio: Negociable\nTransmisión: Automática\nDirección: Asistida\nVestidura: Tela\nCombustible o energía: Gasolina\nSegmento: Sedán\nCondición: Usado\nColor exterior: Amarillo\nColor interior: Gris\nCon aire acondicionado\nTracción: Delantera\nPuertas: 4\nPasajeros: 5\nVelocidades: 4\nCilindros: 4\nVálvulas: 4\nCilindrada: 40\nPotencia en HP: 103\nTorque máximo libras/pie: 107\nCapacidad del tanque (l): 45\nConsumo en ciudad (Km/l): 13.1\nConsumo en carretera (Km/l): 21\nConsumo en combinado (Km/l): 16.7\nDiámetro de rines (pulgadas): 15\nLargo del vehículo (mm): 4315\nAncho del vehículo (mm): 1709\nAlto del vehículo (mm): 1506\nPeso (Kg): 1140\n\nEQUIPAMIENTO:\n\n- Audio: bocinas, entrada auxiliar.\n\n- Confort: aire acondicionado, altura del volante ajustable, apertura de cajuela y tapa combustible, apertura remota de cajuela, desempañador trasero, espejo de vanidad, volante de posiciones.\n\n- Eléctrico: asiento conductor, elevadores de cristal.\n\n- Extras: quemacocos, rines de aluminio y/o aleación.\n\n- Seguridad: bolsa de aire conductor, cinturones de seguridad delanteros, cinturones de seguridad traseros, frenos de disco traseros.",
+        "id": "descriptionAut",
+        "label": "Descripción",
+        "type": "attribute",
+        "groupId": "description",
+        "order": 2
+      },
+      {
+        "value": "",
+        "id": "descriptionFooter",
+        "label": "Descripción",
+        "type": "attribute",
+        "groupId": "description",
+        "order": 3
+      },
+      {
+        "value": "",
+        "id": "hologram",
+        "label": "Holograma ambiental",
+        "type": "attribute",
+        "groupId": "advanced",
+        "order": 0,
+        "valueId": "HOLOLGRAM-0"
+      },
+      {
+        "value": "4",
+        "id": "doors",
+        "label": "Puertas",
+        "type": "attribute",
+        "groupId": "advanced",
+        "order": 1,
+        "valueId": "DOORS-4"
+      },
+      {
+        "value": "5",
+        "id": "passengers",
+        "label": "Pasajeros",
+        "type": "attribute",
+        "groupId": "advanced",
+        "order": 2,
+        "valueId": "PASSENGERS-5"
+      },
+      {
+        "value": "4",
+        "id": "speeds",
+        "label": "Velocidades",
+        "type": "attribute",
+        "groupId": "advanced",
+        "order": 3,
+        "valueId": "SPPEDS-4"
+      },
+      {
+        "value": "4",
+        "id": "cylinders",
+        "label": "Cilindros",
+        "type": "attribute",
+        "groupId": "advanced",
+        "order": 4,
+        "valueId": "CYLINDERS-4"
+      },
+      {
+        "value": "4",
+        "id": "valves",
+        "label": "Válvulas",
+        "type": "attribute",
+        "groupId": "advanced",
+        "order": 5,
+        "valueId": "VALVES-4"
+      },
+      {
+        "value": 40,
+        "id": "displacement",
+        "label": "Cilindrada",
+        "type": "attribute",
+        "groupId": "advanced",
+        "order": 6
+      },
+      {
+        "value": 103,
+        "id": "power",
+        "label": "Potencia en HP",
+        "type": "attribute",
+        "groupId": "advanced",
+        "order": 7
+      },
+      {
+        "value": 107,
+        "id": "torque",
+        "label": "Torque máximo libras/pie",
+        "type": "attribute",
+        "groupId": "advanced",
+        "order": 8
+      },
+      {
+        "value": 45,
+        "id": "tankCapacity",
+        "label": "Capacidad del tanque (l)",
+        "type": "attribute",
+        "groupId": "advanced",
+        "order": 9
+      },
+      {
+        "value": 13.1,
+        "id": "consumptionCity",
+        "label": "Consumo en ciudad (Km/l)",
+        "type": "attribute",
+        "groupId": "advanced",
+        "order": 10
+      },
+      {
+        "value": 21,
+        "id": "consumptionRoad",
+        "label": "Consumo en carretera (Km/l)",
+        "type": "attribute",
+        "groupId": "advanced",
+        "order": 11
+      },
+      {
+        "value": 16.7,
+        "id": "consumptionCombined",
+        "label": "Consumo en combinado (Km/l)",
+        "type": "attribute",
+        "groupId": "advanced",
+        "order": 12
+      },
+      {
+        "value": 15,
+        "id": "diameterWheels",
+        "label": "Diámetro de rines (pulgadas)",
+        "type": "attribute",
+        "groupId": "advanced",
+        "order": 13
+      },
+      {
+        "value": 4315,
+        "id": "dimensionsLength",
+        "label": "Largo del vehículo (mm)",
+        "type": "attribute",
+        "groupId": "advanced",
+        "order": 14
+      },
+      {
+        "value": 1709,
+        "id": "dimensionsWidth",
+        "label": "Ancho del vehículo (mm)",
+        "type": "attribute",
+        "groupId": "advanced",
+        "order": 15
+      },
+      {
+        "value": 1506,
+        "id": "dimensionsHeight",
+        "label": "Alto del vehículo (mm)",
+        "type": "attribute",
+        "groupId": "advanced",
+        "order": 16
+      },
+      {
+        "value": 1140,
+        "id": "dimensionsWeight",
+        "label": "Peso (Kg)",
+        "type": "attribute",
+        "groupId": "advanced",
+        "order": 17
+      },
+      {
+        "value": "",
+        "id": "stock",
+        "label": "Número de inventario",
+        "type": "attribute",
+        "groupId": "business",
+        "order": 0
+      },
+      {
+        "value": null,
+        "id": "purchasePrice",
+        "label": "Precio de compra",
+        "type": "attribute",
+        "groupId": "business",
+        "order": 1
+      },
+      {
+        "value": "Chevrolet",
+        "id": "brand",
+        "label": "Marca",
+        "type": "category",
+        "groupId": "catalog",
+        "order": 0,
+        "valueId": "v_1_11"
+      },
+      {
+        "value": "Aveo",
+        "id": "model",
+        "label": "Modelo",
+        "type": "category",
+        "groupId": "catalog",
+        "order": 1,
+        "valueId": "v_1_11_6"
+      },
+      {
+        "value": "2020",
+        "id": "year",
+        "label": "Año",
+        "type": "category",
+        "groupId": "catalog",
+        "order": 2,
+        "valueId": "v_1_11_6_5"
+      },
+      {
+        "value": "4 pts. AT C",
+        "id": "trim",
+        "label": "Versión",
+        "type": "category",
+        "groupId": "catalog",
+        "order": 3,
+        "valueId": "v_1_11_6_5_6"
+      },
+      {
+        "value": false,
+        "id": "antenna",
+        "label": "Antena",
+        "type": "equipment",
+        "groupId": "audio",
+        "order": 0
+      },
+      {
+        "value": false,
+        "id": "wirelessHeadphones",
+        "label": "Audífonos inalámbricos",
+        "type": "equipment",
+        "groupId": "audio",
+        "order": 1
+      },
+      {
+        "value": true,
+        "id": "speakers",
+        "label": "Bocinas",
+        "type": "equipment",
+        "groupId": "audio",
+        "order": 2
+      },
+      {
+        "value": false,
+        "id": "boxDisk",
+        "label": "Caja de discos",
+        "type": "equipment",
+        "groupId": "audio",
+        "order": 3
+      },
+      {
+        "value": false,
+        "id": "remoteControlAudio",
+        "label": "Controles remotos del equipo de audio",
+        "type": "equipment",
+        "groupId": "audio",
+        "order": 4
+      },
+      {
+        "value": true,
+        "id": "auxiliaryInput",
+        "label": "Entrada auxiliar",
+        "type": "equipment",
+        "groupId": "audio",
+        "order": 5
+      },
+      {
+        "value": false,
+        "id": "ipodPort",
+        "label": "Interface para iPod",
+        "type": "equipment",
+        "groupId": "audio",
+        "order": 6
+      },
+      {
+        "value": false,
+        "id": "screenEntertainment",
+        "label": "Pantalla entretenimiento",
+        "type": "equipment",
+        "groupId": "audio",
+        "order": 7
+      },
+      {
+        "value": false,
+        "id": "usbPort",
+        "label": "Puerto USB",
+        "type": "equipment",
+        "groupId": "audio",
+        "order": 8
+      },
+      {
+        "value": false,
+        "id": "satelitalRadio",
+        "label": "Radio satelital",
+        "type": "equipment",
+        "groupId": "audio",
+        "order": 9
+      },
+      {
+        "value": false,
+        "id": "cdPlayer",
+        "label": "Reproductor CD/MP3",
+        "type": "equipment",
+        "groupId": "audio",
+        "order": 10
+      },
+      {
+        "value": true,
+        "id": "airConditioning",
+        "label": "Aire acondicionado",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 0
+      },
+      {
+        "value": false,
+        "id": "airConditioningDoubleZone",
+        "label": "Aire acondicionado doble zona",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 1
+      },
+      {
+        "value": false,
+        "id": "adjustmentElectricWheel",
+        "label": "Ajuste del volante eléctrico",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 2
+      },
+      {
+        "value": false,
+        "id": "lumbarAdjustment",
+        "label": "Ajuste lumbar",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 3
+      },
+      {
+        "value": false,
+        "id": "aleron",
+        "label": "Alerón",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 4
+      },
+      {
+        "value": true,
+        "id": "heightWheel",
+        "label": "Altura del volante ajustable",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 5
+      },
+      {
+        "value": true,
+        "id": "openTrunkFuel",
+        "label": "Apertura de cajuela y tapa combustible",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 6
+      },
+      {
+        "value": true,
+        "id": "remoteTrunk",
+        "label": "Apertura remota de cajuela",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 7
+      },
+      {
+        "value": false,
+        "id": "remoteGarage",
+        "label": "Apertura remota de garage",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 8
+      },
+      {
+        "value": false,
+        "id": "foldingRearSeat",
+        "label": "Asientos traseros abatibles",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 9
+      },
+      {
+        "value": false,
+        "id": "startButton",
+        "label": "Botón de arranque del vehículo",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 10
+      },
+      {
+        "value": false,
+        "id": "heatedSeats",
+        "label": "Calefacción en asientos",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 11
+      },
+      {
+        "value": false,
+        "id": "luggageRack",
+        "label": "Canastilla portaequipaje",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 12
+      },
+      {
+        "value": false,
+        "id": "carEntertaiment",
+        "label": "Centro de entretenimiento con DVD",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 13
+      },
+      {
+        "value": false,
+        "id": "automaticDoor",
+        "label": "Cierre automático de puertas",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 14
+      },
+      {
+        "value": false,
+        "id": "cruiseControl",
+        "label": "Control automático de velocidad",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 15
+      },
+      {
+        "value": false,
+        "id": "automaticAir",
+        "label": "Control de temperatura automática",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 16
+      },
+      {
+        "value": true,
+        "id": "rearDefroster",
+        "label": "Desempañador trasero",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 17
+      },
+      {
+        "value": true,
+        "id": "vanityMirror",
+        "label": "Espejo de vanidad",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 18
+      },
+      {
+        "value": false,
+        "id": "doorMirriors",
+        "label": "Espejos laterales retractiles",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 19
+      },
+      {
+        "value": false,
+        "id": "rearWiper",
+        "label": "Limpiador trasero",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 20
+      },
+      {
+        "value": false,
+        "id": "memorySeats",
+        "label": "Memoria en asientos",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 21
+      },
+      {
+        "value": false,
+        "id": "adjustablePedals",
+        "label": "Pedales ajustables",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 22
+      },
+      {
+        "value": false,
+        "id": "depthWheel",
+        "label": "Profundidad del volante ajustable",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 23
+      },
+      {
+        "value": false,
+        "id": "dvdPlayer",
+        "label": "Reproductor de DVD",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 24
+      },
+      {
+        "value": false,
+        "id": "keylessEntry",
+        "label": "Sensor de apertura",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 25
+      },
+      {
+        "value": false,
+        "id": "parkingSensor",
+        "label": "Sensor de estacionamiento",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 26
+      },
+      {
+        "value": false,
+        "id": "systemVoice",
+        "label": "Sistema de control por voz para funciones",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 27
+      },
+      {
+        "value": false,
+        "id": "thirdRowSeats",
+        "label": "Tercera fila de asientos",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 28
+      },
+      {
+        "value": false,
+        "id": "carThermometer",
+        "label": "Termómetro ambiental",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 29
+      },
+      {
+        "value": false,
+        "id": "tintedWindows",
+        "label": "Vidrios entintados",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 30
+      },
+      {
+        "value": true,
+        "id": "wheelPositions",
+        "label": "Volante de posiciones",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 31
+      },
+      {
+        "value": false,
+        "id": "wheelControls",
+        "label": "Volante multifunciones",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 32
+      },
+      {
+        "value": false,
+        "id": "leatherWheel",
+        "label": "Volante revestido en piel",
+        "type": "equipment",
+        "groupId": "confort",
+        "order": 33
+      },
+      {
+        "value": false,
+        "id": "certificated",
+        "label": "Certificado",
+        "type": "equipment",
+        "groupId": "documents",
+        "order": 0
+      },
+      {
+        "value": false,
+        "id": "taxItemized",
+        "label": "Factura IVA desglosado",
+        "type": "equipment",
+        "groupId": "documents",
+        "order": 1
+      },
+      {
+        "value": false,
+        "id": "originalInvoice",
+        "label": "Factura original",
+        "type": "equipment",
+        "groupId": "documents",
+        "order": 2
+      },
+      {
+        "value": false,
+        "id": "possibleChange",
+        "label": "Acepto vehículos a cuenta",
+        "type": "equipment",
+        "groupId": "documents",
+        "order": 3
+      },
+      {
+        "value": false,
+        "id": "firtsCarOwner",
+        "label": "Primer propietario",
+        "type": "equipment",
+        "groupId": "documents",
+        "order": 4
+      },
+      {
+        "value": false,
+        "id": "agencyInvoice",
+        "label": "Refacturado por agencia",
+        "type": "equipment",
+        "groupId": "documents",
+        "order": 5
+      },
+      {
+        "value": false,
+        "id": "insuranceBill",
+        "label": "Refacturado por aseguradora",
+        "type": "equipment",
+        "groupId": "documents",
+        "order": 6
+      },
+      {
+        "value": false,
+        "id": "companyInvoice",
+        "label": "Refacturado por empresa",
+        "type": "equipment",
+        "groupId": "documents",
+        "order": 7
+      },
+      {
+        "value": false,
+        "id": "leaseholdFinancing",
+        "label": "Se traspasa financiamiento",
+        "type": "equipment",
+        "groupId": "documents",
+        "order": 8
+      },
+      {
+        "value": false,
+        "id": "currentInsurance",
+        "label": "Seguro vigente",
+        "type": "equipment",
+        "groupId": "documents",
+        "order": 9
+      },
+      {
+        "value": false,
+        "id": "workShopServices",
+        "label": "Servicios de agencia",
+        "type": "equipment",
+        "groupId": "documents",
+        "order": 10
+      },
+      {
+        "value": false,
+        "id": "carDocument",
+        "label": "Tenencias pagadas",
+        "type": "equipment",
+        "groupId": "documents",
+        "order": 11
+      },
+      {
+        "value": false,
+        "id": "demoVehicle",
+        "label": "Vehículo Demo",
+        "type": "equipment",
+        "groupId": "documents",
+        "order": 12
+      },
+      {
+        "value": false,
+        "id": "garantyPlant",
+        "label": "Auto con garantía de planta",
+        "type": "equipment",
+        "groupId": "documents",
+        "order": 13
+      },
+      {
+        "value": false,
+        "id": "environVerification",
+        "label": "Verificación ambiental vigente",
+        "type": "equipment",
+        "groupId": "documents",
+        "order": 14
+      },
+      {
+        "value": false,
+        "id": "mechanicalWarranty",
+        "label": "Con garantía mecánica",
+        "type": "equipment",
+        "groupId": "documents",
+        "order": 15
+      },
+      {
+        "value": false,
+        "id": "carRecovered",
+        "label": "Auto recuperado",
+        "type": "equipment",
+        "groupId": "documents",
+        "order": 16
+      },
+      {
+        "value": false,
+        "id": "offCylinder",
+        "label": "Apagado de cilindros",
+        "type": "equipment",
+        "groupId": "electric",
+        "order": 0
+      },
+      {
+        "value": true,
+        "id": "powerSeats",
+        "label": "Asiento conductor",
+        "type": "equipment",
+        "groupId": "electric",
+        "order": 1
+      },
+      {
+        "value": false,
+        "id": "centralLock",
+        "label": "Cierre centralizado",
+        "type": "equipment",
+        "groupId": "electric",
+        "order": 2
+      },
+      {
+        "value": false,
+        "id": "powerTrunkClosing",
+        "label": "Cierre eléctrico de cajuela",
+        "type": "equipment",
+        "groupId": "electric",
+        "order": 3
+      },
+      {
+        "value": false,
+        "id": "computer",
+        "label": "Computadora de viaje",
+        "type": "equipment",
+        "groupId": "electric",
+        "order": 4
+      },
+      {
+        "value": true,
+        "id": "powerWindows",
+        "label": "Elevadores de cristal",
+        "type": "equipment",
+        "groupId": "electric",
+        "order": 5
+      },
+      {
+        "value": false,
+        "id": "lighter",
+        "label": "Encendedor",
+        "type": "equipment",
+        "groupId": "electric",
+        "order": 6
+      },
+      {
+        "value": false,
+        "id": "remoteIgnition",
+        "label": "Encendido Remoto",
+        "type": "equipment",
+        "groupId": "electric",
+        "order": 7
+      },
+      {
+        "value": false,
+        "id": "powerMirrors",
+        "label": "Espejos laterales",
+        "type": "equipment",
+        "groupId": "electric",
+        "order": 8
+      },
+      {
+        "value": false,
+        "id": "immobilizer",
+        "label": "Inmovilizador",
+        "type": "equipment",
+        "groupId": "electric",
+        "order": 9
+      },
+      {
+        "value": false,
+        "id": "powerDoorLocks",
+        "label": "Seguros",
+        "type": "equipment",
+        "groupId": "electric",
+        "order": 10
+      },
+      {
+        "value": false,
+        "id": "boardProjected",
+        "label": "Tablero proyectado en el parabrisas",
+        "type": "equipment",
+        "groupId": "electric",
+        "order": 11
+      },
+      {
+        "value": false,
+        "id": "tachometer",
+        "label": "Tacómetro",
+        "type": "equipment",
+        "groupId": "electric",
+        "order": 12
+      },
+      {
+        "value": false,
+        "id": "bedLiner",
+        "label": "Alberca/Tina (camioneta)",
+        "type": "equipment",
+        "groupId": "extra",
+        "order": 0
+      },
+      {
+        "value": false,
+        "id": "towingPackage",
+        "label": "Paquete de arrastre",
+        "type": "equipment",
+        "groupId": "extra",
+        "order": 1
+      },
+      {
+        "value": true,
+        "id": "sunroof",
+        "label": "Quemacocos",
+        "type": "equipment",
+        "groupId": "extra",
+        "order": 2
+      },
+      {
+        "value": true,
+        "id": "alloyWheels",
+        "label": "Rines de aluminio y/o aleación",
+        "type": "equipment",
+        "groupId": "extra",
+        "order": 3
+      },
+      {
+        "value": false,
+        "id": "spoilers",
+        "label": "Spoilers",
+        "type": "equipment",
+        "groupId": "extra",
+        "order": 4
+      },
+      {
+        "value": false,
+        "id": "glassRoof",
+        "label": "Techo de cristal",
+        "type": "equipment",
+        "groupId": "extra",
+        "order": 5
+      },
+      {
+        "value": false,
+        "id": "bluetooth",
+        "label": "Bluetooth",
+        "type": "equipment",
+        "groupId": "gadgets",
+        "order": 0
+      },
+      {
+        "value": false,
+        "id": "gpsLocator",
+        "label": "Localizador satelital",
+        "type": "equipment",
+        "groupId": "gadgets",
+        "order": 1
+      },
+      {
+        "value": false,
+        "id": "navigationSystem",
+        "label": "Sistema de navegación GPS",
+        "type": "equipment",
+        "groupId": "gadgets",
+        "order": 2
+      },
+      {
+        "value": false,
+        "id": "alarm",
+        "label": "Alarma",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 0
+      },
+      {
+        "value": false,
+        "id": "childSeatAnchor",
+        "label": "Anclaje para asientos infantiles",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 1
+      },
+      {
+        "value": false,
+        "id": "airBagPassenger",
+        "label": "Bolsa de aire acompañante",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 2
+      },
+      {
+        "value": true,
+        "id": "airBag",
+        "label": "Bolsa de aire conductor",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 3
+      },
+      {
+        "value": false,
+        "id": "sideAirBags",
+        "label": "Bolsa de aire laterales",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 4
+      },
+      {
+        "value": false,
+        "id": "airBagCourtain",
+        "label": "Bolsas de aire cortina",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 5
+      },
+      {
+        "value": false,
+        "id": "kneeAirbags",
+        "label": "Bolsas de aire para rodillas",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 6
+      },
+      {
+        "value": false,
+        "id": "backSeatAirBag",
+        "label": "Bolsas de aire traseras",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 7
+      },
+      {
+        "value": false,
+        "id": "parkingCamera",
+        "label": "Cámara de estacionamiento",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 8
+      },
+      {
+        "value": true,
+        "id": "frontSeatBelts",
+        "label": "Cinturones de seguridad delanteros",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 9
+      },
+      {
+        "value": false,
+        "id": "3rdSeatBelts",
+        "label": "Cinturones de seguridad tercera fila",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 10
+      },
+      {
+        "value": true,
+        "id": "backSeatBelts",
+        "label": "Cinturones de seguridad traseros",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 11
+      },
+      {
+        "value": false,
+        "id": "stabilitySystem",
+        "label": "Control de estabilidad",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 12
+      },
+      {
+        "value": false,
+        "id": "tractionControl",
+        "label": "Control de tracción",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 13
+      },
+      {
+        "value": false,
+        "id": "rearDefrost",
+        "label": "Desempañador en espejos laterales",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 14
+      },
+      {
+        "value": false,
+        "id": "daytimeLights",
+        "label": "Encendido diurno automático",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 15
+      },
+      {
+        "value": false,
+        "id": "dimmingMirrior",
+        "label": "Espejo retrovisor antideslumbrante",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 16
+      },
+      {
+        "value": false,
+        "id": "fogLamps",
+        "label": "Faros de niebla",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 17
+      },
+      {
+        "value": false,
+        "id": "fogLightsRear",
+        "label": "Faros de niebla traseros",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 18
+      },
+      {
+        "value": false,
+        "id": "adjustableLights",
+        "label": "Faros regulables de altura",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 19
+      },
+      {
+        "value": false,
+        "id": "abs",
+        "label": "Frenos ABS",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 20
+      },
+      {
+        "value": true,
+        "id": "discBrakes",
+        "label": "Frenos de disco traseros",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 21
+      },
+      {
+        "value": false,
+        "id": "xenonLights",
+        "label": "Luces de Xenon",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 22
+      },
+      {
+        "value": false,
+        "id": "glassSecurity",
+        "label": "Película anti-asalto",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 23
+      },
+      {
+        "value": false,
+        "id": "rollbar",
+        "label": "Rollbar",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 24
+      },
+      {
+        "value": false,
+        "id": "rainSensor",
+        "label": "Sensor de lluvia",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 25
+      },
+      {
+        "value": false,
+        "id": "sensorLaneChange",
+        "label": "Sensor para cambio de carril",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 26
+      },
+      {
+        "value": false,
+        "id": "brakeAssist",
+        "label": "Sistema de asistencia de frenado",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 27
+      },
+      {
+        "value": false,
+        "id": "tattooSerial",
+        "label": "Tatuaje de número de serie",
+        "type": "equipment",
+        "groupId": "security",
+        "order": 28
+      }
+    ],
+    "thumbnail": "",
+    "descriptionId": 1686009875347,
+    "sellerId": 777,
+    "categoryId": "v_1_11_6_5_6",
+    "title": "Chevrolet Aveo 2020",
+    "price": 200000,
+    "currency": "MXN",
+    "condition": "Usado",
+    "countryId": "MX",
+    "images": []
+  }
+]
