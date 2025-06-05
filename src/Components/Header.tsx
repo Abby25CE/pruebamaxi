@@ -56,7 +56,7 @@ export default function Header() {
 
       {/* Menú mobile */}
       {open && (
-        <div className="md:hidden px-4 pb-4 space-y-4 bg-red-800">
+        <div className="md:hidden px-4 pb-4 space-y-4 bg-[#1a1a1a]">
           <nav className="flex flex-col gap-3 text-sm bg-[#1a1a1a] p-4 rounded-md">
             <Link
               href="/"
