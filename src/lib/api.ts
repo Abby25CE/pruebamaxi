@@ -40,13 +40,16 @@ export interface NavigationItem {
   isVariant?: boolean;
 }
 
+// Cache simple en memoria
+const cache = new Map<string, { data: Anuncio; timestamp: number }>();
+const CACHE_DURATION = 2 * 60 * 1000; // 2 minutos
+
 // Breadcrumb dinámico
 export function buildNavigation(anuncio: Anuncio): NavigationItem[] {
   return [
     { label: "Volver al listado", isAction: true },
     { label: "Compra de autos", isCategory: true },
     { label: anuncio.brandModel.split(" ")[0] || "Marca", isBrand: true },
-
     {
       label: anuncio.year.replace(anuncio.brandModel, "").trim() || "Versión",
       isVariant: true,
@@ -54,8 +57,30 @@ export function buildNavigation(anuncio: Anuncio): NavigationItem[] {
   ];
 }
 
-// Función principal para obtener el anuncio
+// Función para limpiar cache expirado
+function cleanExpiredCache() {
+  const now = Date.now();
+  for (const [key, value] of cache.entries()) {
+    if (now - value.timestamp > CACHE_DURATION) {
+      cache.delete(key);
+    }
+  }
+}
+
+// Función principal para obtener el anuncio con cache
 export async function fetchAnuncio(id: string): Promise<Anuncio> {
+  // Limpiar cache expirado
+  cleanExpiredCache();
+
+  // Verificar si existe en cache y no ha expirado
+  const cached = cache.get(id);
+  if (cached && Date.now() - cached.timestamp < CACHE_DURATION) {
+    console.log(`Cache hit para anuncio ${id}`);
+    return cached.data;
+  }
+
+  console.log(`Fetching anuncio ${id} desde API`);
+
   const res = await fetch(`https://beta.maxipublica.com/testing/ads/${id}`);
   if (!res.ok) throw new Error("No se pudo obtener el anuncio");
 
@@ -150,7 +175,7 @@ export async function fetchAnuncio(id: string): Promise<Anuncio> {
       ? bodyTypeAttr.value
       : "No especificado";
 
-  return {
+  const anuncio: Anuncio = {
     id: String(data._id),
     title: data.title || "",
     description,
@@ -169,4 +194,15 @@ export async function fetchAnuncio(id: string): Promise<Anuncio> {
     bodyType,
     location,
   };
+
+  // Guardar en cache
+  cache.set(id, { data: anuncio, timestamp: Date.now() });
+
+  return anuncio;
+}
+
+// Función para limpiar cache manualmente (útil para desarrollo)
+export function clearCache() {
+  cache.clear();
+  console.log("Cache limpiado");
 }
