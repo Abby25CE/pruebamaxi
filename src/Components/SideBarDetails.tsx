@@ -1,5 +1,6 @@
 "use client";
 import { Anuncio } from "@/lib/api";
+import ButtonD from "./ButtonD";
 
 export default function SidebarDetails({ anuncio }: { anuncio: Anuncio }) {
   return (
@@ -68,10 +69,11 @@ export default function SidebarDetails({ anuncio }: { anuncio: Anuncio }) {
           ))}
         </div>
       </div>
-
+      {/*
       <button className="items-start px-7 py-2 text-[#EC5530] border-[1px] rounded-md w-full md:w-4/6">
         Descargar Ficha Tecnica
-      </button>
+      </button>*/}
+      <ButtonD anuncioId={anuncio.id} />
     </aside>
   );
 }

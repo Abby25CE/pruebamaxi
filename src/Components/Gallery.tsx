@@ -15,11 +15,16 @@ export default function Gallery({ images }: Props) {
   return (
     <div className="flex flex-col gap-4">
       {/* Imagen principal */}
-      <img
-        src={images[selected]}
-        alt={`Imagen ${selected + 1}`}
-        className="w-full h-64 md:h-[400px] object-cover rounded-xl"
-      />
+      <button
+        className="
+      hover:cursor-pointer"
+      >
+        <img
+          src={images[selected]}
+          alt={`Imagen ${selected + 1}`}
+          className="w-full h-64 md:h-[400px] object-cover rounded-xl"
+        />
+      </button>
 
       {/* Miniaturas */}
       <div className="flex gap-2 overflow-x-auto">
